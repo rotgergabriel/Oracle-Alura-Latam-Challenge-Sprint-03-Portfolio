@@ -1,0 +1,79 @@
+:root {
+    --black: rgb(16, 16, 16);
+    --white: rgb(242, 242, 242);
+    --grey: rgb(52, 61, 91);
+    --light-grey: rgba(0, 0, 0, .2);
+    --blue: #0976b5;
+}
+
+body {
+    background-color: var(--white);
+    transition: .5s ease all;
+    user-select: none;
+}
+
+/*Add dark styles*/
+.dark-mode {
+    background-color: var(--black);
+}
+
+.dark-mode .header {
+    background: var(--light-grey);
+    border-bottom: 1px dashed var(--white);
+}
+.dark-mode .header__link {
+    color: var(--white);
+}
+.dark-mode .main__title {
+    color: var(--white);
+}
+.dark-mode .main__subtitle {
+    color: var(--white);
+}
+.dark-mode .main__link{
+    color: var(--white);
+}
+
+/* button styles */
+.btn-switch {
+    background: var(--grey);
+    border-radius: 100px;
+    border: none;
+    position:fixed;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+}
+
+.btn-switch span {
+    width: 20px;
+    height: 20px;
+    line-height: 21px;
+    display: block;
+    background: none;
+    color: var(--white);
+}
+
+.btn-switch::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    background-color: var(--white);
+    top: -1px;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    box-shadow: 0px 0px 2px 2px var(--light-grey);
+}
+
+.active {
+    background-color: var(--blue);
+    color: var(--black);
+}
+
+.active::after {
+    right: 0;
+    left: unset;
+}

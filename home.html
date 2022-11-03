@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Styles-->
+    <link rel="stylesheet" href="/styles/btn-dark-mode.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/home.css">
+    <!--Font awesome-->
+    <script src="https://kit.fontawesome.com/a946beb2ac.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <div>
+            <ul>
+                <li><a class="header__link underline" href="">About</a></li>
+                <li><a class="header__link underline" href="">My skills</a></li>
+                <li><a class="header__link underline" href="">Works</a></li>
+                <li><a class="header__link underline" href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="header__btn">
+            <button class="btn-switch" data-switch>
+                <span><i class="fas fa-sun"></i></span>
+                <span><i class="fas fa-moon"></i></span>
+            </button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__content">
+            <img class="main__profile--img" src="/assets/img/profile.jpeg" alt="profile image">
+            <div class="main__content--title">
+                <h1 class="main__title">Hola, soy Gabriel, front-end developer.</h1>
+                <h2 class="main__subtitle">Actualmente me encuentro participando en el proyecto <em>Oracle ONE</em> en <em>Alura Latam</em></h2>
+                <div class="main__links">
+                    <li><a class="main__link underline" href="https://github.com/rotgergabriel" target="_blank">GitHub</a></li>
+                    <li><a class="main__link underline" href="https://www.linkedin.com/in/gabriel-augusto-rotger" target="_blank">Linkedin</a></li>
+                    <li><a class="main__link underline" href="/assets/file/Cv Gabriel - Es.pdf" download="Cv-Rotger">Cv-Download</a></li>
+                </div>
+            </div>
+        </div>
+        <div class="about__content">
+            <h1 class="about__tittle">About</h1>
+            <span class="about__description">
+                Soy un apasionado por la tecnología en general, juego al futbol, básquet, y en mi tiempo libre estudio de forma autodidacta programación web front-end (HTML, CSS, JavaScript, React.js, Node.js, Git, GitHub, Etc ), buscando siempre el crecimiento intelectual y con ello mejores oportunidades laborales.
+            </span>
+        </div>
+        <div>
+            <div class="arrow">
+                &#8595;
+            </div>
+        </div>
+    </main>
+    <script type="module" defer src="/js/darkMode.js"></script>
+</body>
+</html>
