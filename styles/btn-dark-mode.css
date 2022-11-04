@@ -33,6 +33,9 @@ body {
 .dark-mode .main__link{
     color: var(--white);
 }
+.dark-mode .skill__title{
+    color: var(--white);
+}
 
 /* button styles */
 .btn-switch {
