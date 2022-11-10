@@ -127,26 +127,23 @@
 }
 
 .about__content {
-    margin: 100px calc(20% - 100px);
-    padding: 25px 0;
+    margin: 50px calc(20% - 130px);
+    /* padding: 25px 0; */
     text-align: center;
     line-height: 2em;
-    background: var(--grey);
-    border-radius: 10px;
-    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
 }
 
 .about__tittle {
     font-size: 25px;
     font-family: monospace;
-    color: var(--white);
+    color: var(--dark-blue);
 }
 
 .about__description {
-    text-align: justify;
+    text-align: center;
     margin-top: 15px;
     padding: 0 50px;
-    color: var(--white);
+    color: var(--dark-blue);
     display: inline-block;
     font-size: 15px;
     font-family: monospace;
@@ -183,7 +180,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 100px calc(20% - 100px);
+    margin: 50px calc(20% - 100px);
     padding: 25px 0;
 }
 
@@ -217,6 +214,7 @@
     justify-content: center;
     align-items: center;
     margin: 5px;
+    padding: 5px;
     border-radius: 10px;
     width: 150px;
     height: 100px;
@@ -225,8 +223,160 @@
 }
 
 .skills__img {
-    max-width: 20%;
+    width: 30%;
 }
+
+.formation__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px calc(20% - 100px);
+}
+
+.formation__title {
+    font-size: 25px;
+    font-family: monospace;
+    color: var(--dark-blue);
+}
+
+.formation__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.formation__item {
+    display: flex;
+    width: 230px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.formation__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 12.5rem;
+    height: 12.5rem;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
+}
+
+.platzi {
+    background-color: var(--white);
+    background: url(/assets/img/formation/platzi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alura {
+    background-color: var(--white);
+    background: url(/assets/img/formation/alura.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.google {
+    background-color: var(--white);
+    background: url(/assets/img/formation/googleActivate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foundation {
+    background-color: var(--white);
+    background: url(/assets/img/formation/fundacion.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formation--info {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-family: monospace;
+    font-style: italic;
+    color: var(--dark-blue);
+}
+
+.years {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    font-family: monospace;
+    color: var(--blue);
+    margin-top: 5px;
+}
+
+.works__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.works__title {
+    font-size: 25px;
+    font-family: monospace;
+    color: var(--dark-blue);
+}
+
+.works__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+.work__img {
+    width: 450px;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
+    margin: 0 25px;
+    border-radius: 10px;
+}
+
+.work__info {
+    line-height: 30px;
+    font-family: monospace;
+    color: var(--dark-blue);
+    align-self: center;
+    width: 30%;
+}
+
+.work--title {
+    font-size: 20px;
+}
+
+.work--subtitle {
+    font-size: 12px;
+}
+
+.work--description {
+    font-size: 10px;
+}
+
+.work--button {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: monospace;
+    color: var(--white);
+    text-align: center;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
+    background: linear-gradient(to right, var(--dark-blue), var(--blue));
+}
+
 
 
 
