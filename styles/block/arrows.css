@@ -1,0 +1,33 @@
+.arrow__down {
+    position: fixed;
+    top: 40vh;
+    left: 5px;
+    transform: rotate(90deg);
+    color: var(--grey)
+}
+
+.arrow__up {
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+    text-decoration: none;
+    color: var(--grey)
+}
+
+@keyframes moviendrew {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+.arrow__down {
+    animation-name: moviendrew;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 80px;
+}

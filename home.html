@@ -5,9 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Styles-->
-    <link rel="stylesheet" href="/styles/btn-dark-mode.css">
-    <link rel="stylesheet" href="/styles/reset.css">
-    <link rel="stylesheet" href="/styles/home.css">
+    <link rel="stylesheet" href="/styles/pages/btn-dark-mode.css">
+    <link rel="stylesheet" href="/styles/pages/reset.css">
+    <link rel="stylesheet" href="/styles/pages/style.css">
+    <link rel="stylesheet" href="/styles/block/header.css">
+    <link rel="stylesheet" href="/styles/block/main.css">
+    <link rel="stylesheet" href="/styles/block/about.css">
+    <link rel="stylesheet" href="/styles/block/skills.css">
+    <link rel="stylesheet" href="/styles/block/formation.css">
+    <link rel="stylesheet" href="/styles/block/works.css">
+    <link rel="stylesheet" href="/styles/block/contact.css">
+    <link rel="stylesheet" href="/styles/block/footer.css">
+    <link rel="stylesheet" href="/styles/block/arrows.css">
     <!--Font awesome-->
     <script src="https://kit.fontawesome.com/a946beb2ac.js" crossorigin="anonymous"></script>
     <title>Portfolio</title>
@@ -15,15 +24,16 @@
     <link rel="shortcut icon" href="/assets/img/56-document-gradient.ico" type="image/x-icon">
 </head>
 <body>
+    <a name="top"></a>
     <header class="header">
         <div>
             <ul>
-                <li><a class="header__link underline" href="">About</a></li>
-                <li><a class="header__link underline" href="">My skills</a></li>
-                <li><a class="header__link underline" href="">Hobbies</a></li>
-                <li><a class="header__link underline" href="">Formation</a></li>
-                <li><a class="header__link underline" href="">Works</a></li>
-                <li><a class="header__link underline" href="">Contact</a></li>
+                <li><a class="header__link underline" href="#about">About</a></li>
+                <li><a class="header__link underline" href="#skills">My skills</a></li>
+                <li><a class="header__link underline" href="#hobbies">Hobbies</a></li>
+                <li><a class="header__link underline" href="#formation">Formation</a></li>
+                <li><a class="header__link underline" href="#works">Works</a></li>
+                <li><a class="header__link underline" href="#contact">Contact</a></li>
             </ul>
         </div>
         <div class="header__btn">
@@ -34,9 +44,9 @@
         </div>
     </header>
     <main class="main">
-        <div class="main__content">
+        <div class="main__container">
             <img class="main__profile--img" src="/assets/img/profile.jpeg" alt="profile image">
-            <div class="main__content--title">
+            <div class="main__container--title">
                 <h1 class="main__title">Hola, soy Gabriel, front-end developer.</h1>
                 <h2 class="main__subtitle">Actualmente me encuentro participando en el proyecto <em>Oracle ONE</em> en <em>Alura Latam</em></h2>
                 <div class="main__links">
@@ -46,19 +56,14 @@
                 </div>
             </div>
         </div>
-        <div class="about__content">
-            <h1 class="about__tittle">About</h1>
+        <div class="about__container">
+            <h1 class="about__tittle"><a name="about">About</a></h1>
             <span class="about__description">
                 Soy un apasionado por la tecnología en general, y en mi tiempo libre estudio de forma autodidacta programación web Front-End, buscando siempre el crecimiento intelectual y con ello mejores oportunidades laborales.
             </span>
         </div>
-        <div>
-            <div class="arrow">
-                &#8595;
-            </div>
-        </div>
-        <div class="skills__content">
-            <h1 class="skill__title">Skills</h1>
+        <div class="skills__container">
+            <h1 class="skill__title"><a name="skills">Skills</a></h1>
             <div class="skill__cards">
                 <div class="skill__item">
                     <h2 class="skill__subtitle">HTML</h2>
@@ -94,8 +99,8 @@
                 </div>
             </div>
         </div>
-        <div class="formation__content">
-            <h1 class="formation__title">Formation</h1>
+        <div class="formation__container">
+            <h1 class="formation__title"><a name="formation">Formation</a></h1>
             <div class="formation__items">
                 <div class="formation__item">
                     <div class="formation__img platzi">
@@ -123,8 +128,8 @@
                 </div>
             </div>
         </div>
-        <div class="skills__content">
-            <h1 class="skill__title">Hobbies</h1>
+        <div class="skills__container">
+            <h1 class="skill__title"><a name="hobbies">Hobbies</a></h1>
             <div class="skill__cards">
                 <div class="skill__item">
                     <h2 class="skill__subtitle">Programar</h2>
@@ -156,8 +161,8 @@
                 </div>
             </div>
         </div>
-        <div class="works__content">
-            <h1 class="works__title">Works</h1>
+        <div class="works__container">
+            <h1 class="works__title"><a name="works">Works</a></h1>
             <div class="works__items">
                 <img class="work__img" src="/assets/img/works/encrypt.png" alt="Encriptador de texto">
                 <div class="work__info">
@@ -181,7 +186,7 @@
             <div class="works__items">
                 <img class="work__img" src="/assets/img/works/losAbuelos.png" alt="Encriptador de texto">
                 <div class="work__info">
-                    <h1 class="work--title">Sitio Web Los Abuelos</h1>
+                    <h1 class="work--title">Web 'Los Abuelos'</h1>
                     <h2 class="work--subtitle">Proyecto Personal</h2>
                     <span class="work--description">HTML, CSS, JavaScrispant, React</span>
                     <a class="work--button" target="_blank" href="https://github.com/rotgergabriel/losAbuelosReact">Repo</a>
@@ -189,7 +194,47 @@
                 </div>
             </div>
         </div>
+        <div class="contact__container">
+            <h1 class="works__title"><a name="contact">Contacto</a></h1>
+            <div class="form__container">
+                <form autocomplete="off" class="form__contact" method="post">
+                    <input class="form--input" type="text" id="name" placeholder="Nombre" maxlength="30" required>
+                    <input class="form--input" type="email" id="mail" placeholder="E-mail" required>
+                    <input class="form--input" type="text" id="asunto" placeholder="Asunto" maxlength="30" required>
+                    <textarea class="form--input" name="" id="textArea" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <input class="work--button" type="button" value="Enviar">
+                </form>
+                <lord-icon
+                    class="form__img"
+                    src="https://cdn.lordicon.com/sdhhsgeg.json"
+                    colors="primary:#0976b5,secondary:#08c3ff"
+                    trigger="loop"
+                    delay="4000">
+                </lord-icon>
+            </div>
+        </div>
+        <div>
+            <div class="arrow__down">
+                &#8595;
+            </div>
+        </div>
+        <div>
+            <a class="arrow__up" href="#top">
+                UP!
+            </a>
+        </div>
     </main>
+    <footer>
+        <div class="footer__container">
+            <div>
+                <a href="https://github.com/rotgergabriel" target="_blank">GitHub<span>&#9701</span></a>
+                <a href="https://www.linkedin.com/in/gabriel-augusto-rotger" target="_blank">Linkedin<span>&#9701</span></a>
+            </div>
+            <a href="tel:+393290818919">Tel: (+39)3290818919</a>
+            <a href="mailto:rotgergabriel@gmail.com">E-mail: rotgergabriel@gmail.com</a>
+        </div>
+    </footer>
+    <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     <script type="module" defer src="/js/darkMode.js"></script>
 </body>
 </html>

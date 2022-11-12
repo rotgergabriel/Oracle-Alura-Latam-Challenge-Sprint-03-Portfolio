@@ -1,0 +1,71 @@
+.main {
+    margin-top: 50px;
+}
+
+.main__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__profile--img {
+    padding: 10px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.main__container--title {
+    padding: 10px;
+}
+
+.main__title {
+    display: block;
+    font-size: 25px;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 39ch;
+    animation: typing 3s steps(39),
+        blink .5s infinite step-end alternate;
+    overflow: hidden;
+    color: var(--dark-blue);
+}
+
+.main__subtitle {
+    color: var(--dark-blue);
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+.main__links {
+    display: flex;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.main__links li {
+    padding-right: 3em;
+}
+
+.main__links span {
+    color: var(--light-blue);
+}
+
+.main__link {
+    color: var(--grey);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}

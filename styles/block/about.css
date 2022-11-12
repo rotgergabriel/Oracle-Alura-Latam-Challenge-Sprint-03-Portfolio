@@ -1,0 +1,23 @@
+.about__container {
+    margin: 50px calc(20% - 130px);
+    /* padding: 25px 0; */
+    text-align: center;
+    line-height: 2em;
+}
+
+.about__tittle {
+    font-size: 25px;
+    font-family: monospace;
+    color: var(--dark-blue);
+}
+
+.about__description {
+    text-align: center;
+    margin-top: 15px;
+    padding: 0 50px;
+    color: var(--dark-blue);
+    display: inline-block;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+}

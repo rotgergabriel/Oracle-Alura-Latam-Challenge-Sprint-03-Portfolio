@@ -1,0 +1,13 @@
+.footer__container {
+    background: linear-gradient(to right, var(--dark-blue), var(--blue));
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__container a {
+    padding: 10px;
+    color: var(--white);
+    text-decoration: none;
+}
