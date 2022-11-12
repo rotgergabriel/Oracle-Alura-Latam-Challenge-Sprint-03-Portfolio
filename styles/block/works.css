@@ -57,3 +57,9 @@
     box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
     background: linear-gradient(to right, var(--dark-blue), var(--blue));
 }
+
+@media screen and (max-width: 768px) {
+    .work__img {
+        width: 350px;
+    }
+}

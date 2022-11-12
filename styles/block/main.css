@@ -3,10 +3,10 @@
 }
 
 .main__container {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .main__profile--img {
@@ -16,6 +16,11 @@
 }
 
 .main__container--title {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
     padding: 10px;
 }
 
@@ -67,5 +72,21 @@
 @keyframes blink {
     50% {
         border-color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__profile--img {
+        width: 120px;
+    }
+    .main__title {
+        font-size: 20px;
+    }
+    .main__subtitle {
+        font-size: 15px;
     }
 }
