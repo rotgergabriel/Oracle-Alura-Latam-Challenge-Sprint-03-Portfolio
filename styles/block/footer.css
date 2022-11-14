@@ -7,7 +7,19 @@
 }
 
 .footer__container a {
-    padding: 10px;
+    padding: 0 10px;
     color: var(--white);
     text-decoration: none;
+}
+
+@media(min-width:425px) and (max-width:767px) {
+
+}
+
+@media(min-width:320px) and (max-width:424px) {
+    .footer__container {
+        line-height: 40px;
+        justify-content: center;
+        flex-direction: column;
+    }
 }

@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 50px calc(20% - 100px);
-    padding: 25px 0;
+    margin: 50px 0;
+    padding: 25px 20%;
 }
 
 .skill__title {
@@ -51,4 +51,17 @@
 
 .skills__img {
     width: 30%;
+}
+
+@media(min-width:320px) and (max-width:769px) {
+    .skills__container {
+        padding: 25px 0;
+    }
+    .skill__item {
+        width: 75px;
+        height: 75px;
+    }
+    .skill__subtitle {
+        font-size: 10px;
+    }
 }
