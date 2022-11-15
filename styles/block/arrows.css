@@ -1,16 +1,8 @@
 .arrow__down {
     position: fixed;
     top: 40vh;
-    left: 5px;
+    left: 20px;
     transform: rotate(90deg);
-    color: var(--grey)
-}
-
-.arrow__up {
-    position: fixed;
-    bottom: 150px;
-    right: 50px;
-    text-decoration: none;
     color: var(--grey)
 }
 
@@ -30,4 +22,10 @@
     animation-iteration-count: infinite;
     animation-direction: alternate;
     font-size: 80px;
+}
+
+@media(min-width:769px) {
+    .arrow__down {
+        left: 75px;
+    }
 }

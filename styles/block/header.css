@@ -8,14 +8,27 @@
     border-bottom: 1px dashed var(--black);
 }
 
-.header li {
-    display: inline-block;
+.header__menu {
+    width: 100%;
+    height: 100%;
+}
+
+.header__links {
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: var(--light-black);
+    z-index: 1;
 }
 
 .header__link {
     color: var(--white);
     text-decoration: none;
-    padding: 15px;
+    padding: 30px;
     font-size: 1.2rem;
     font-family: monospace;
 }
@@ -45,70 +58,44 @@
     transition: transform .6s ease-in-out;
 }
 
+.header__btn-menu {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    display: unset;
+}
+
+.header__btn-menu--close{
+    color: var(--white);
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    display: unset;
+    visibility: hidden;
+}
+
 .header__btn {
-    margin-top: -23px;
+    margin-top: -25px;
     margin-right: 50px;
+    padding-right: 30px;
+    z-index: 1;
 }
 
-@media (max-width:768px) {
-    .header__link {
-        padding: 10px;
+@media(min-width:769px) {
+    .header__btn-menu {
+        top: 30px;
+        left: 80px;
     }
-}
 
-@media(min-width:425px) and (max-width:768px) {
-    .header__menu {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 100vh;
-        z-index: 1;
+    .header__btn-menu--close {
+        top: 30px;
+        left: 80px;
     }
-    .header__links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: var(--light-black);
-        height: 100vh;
-        /* display: none; */
-    }
-    .header__link {
-        padding: 30px;
-    }
+
     .header__btn {
-        position: absolute;
-        top: 50px;
-        right: 10px;
-        z-index: 1;
-    }
-}
-
-@media(min-width:320px) and (max-width:424px) {
-    .header__menu {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 100vh;
-        z-index: 1;
-    }
-    .header__links {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: var(--light-black);
-        height: 100vh;
-        /* display: none; */
-    }
-    .header__btn {
-        position: absolute;
-        top: 50px;
-        right: 10px;
-        z-index: 1;
+        margin-top: -25px;
+        margin-right: 100px;
     }
 }

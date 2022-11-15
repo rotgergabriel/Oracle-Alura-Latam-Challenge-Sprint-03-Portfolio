@@ -63,7 +63,7 @@ body {
 .dark-mode .arrow__down{
     color: var(--white);
 }
-.dark-mode .arrow__up{
+.dark-mode .header__btn-menu{
     color: var(--white);
 }
 
