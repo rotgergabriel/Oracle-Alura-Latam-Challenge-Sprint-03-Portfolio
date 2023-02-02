@@ -51,8 +51,8 @@
         <div class="main__container">
             <img class="main__profile--img" src="/assets/img/profile.jpeg" alt="profile image">
             <div class="main__container--title">
-                <h1 class="main__title">Hola, soy Gabriel, front-end developer.</h1>
-                <h2 class="main__subtitle">Actualmente me encuentro participando en el proyecto <em>Oracle ONE</em> en <em>Alura Latam</em></h2>
+                <h1 class="main__title" data-main-title></h1>
+                <h2 class="main__subtitle" data-main-subtitle></h2>
                 <div class="main__links">
                     <li><a class="main__link underline" href="https://github.com/rotgergabriel" target="_blank">GitHub<span>&#9701</span></a></li>
                     <li><a class="main__link underline" href="https://www.linkedin.com/in/gabriel-augusto-rotger" target="_blank">Linkedin<span>&#9701</span></a></li>
@@ -60,11 +60,9 @@
                 </div>
             </div>
         </div>
-        <div class="about__container">
-            <h1 class="about__tittle"><a name="about">About</a></h1>
-            <span class="about__description">
-                Soy un apasionado por la tecnología en general, y en mi tiempo libre estudio de forma autodidacta programación web Front-End, buscando siempre el crecimiento intelectual y con ello mejores oportunidades laborales.
-            </span>
+        <div class="about__container" data-container>
+            <h1 class="about__tittle" data-about-title></h1>
+            <span class="about__description" data-about-description></span>
         </div>
         <div class="skills__container">
             <h1 class="skill__title"><a name="skills">Skills</a></h1>
@@ -280,6 +278,8 @@
     <script src="https://kit.fontawesome.com/a946beb2ac.js" crossorigin="anonymous"></script>
     <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     <script type="module" defer src="/js/darkMode.js"></script>
+    <script type="module" src="/js/main.js"></script>
+    <script type="module" src="/js/about.js"></script>
     <script src="/js/btnMenu.js"></script>
 </body>
 </html>
