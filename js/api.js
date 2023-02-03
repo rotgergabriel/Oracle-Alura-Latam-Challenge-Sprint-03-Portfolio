@@ -1,6 +1,6 @@
 //ARRAY
 export const data = {
-    main : [
+    profile : [
        { 
             title: 'Hola, soy Gabriel, front-end developer.',
             subtitle: 'Actualmente me encuentro participando en el proyecto Oracle ONE en Alura Latam',
@@ -30,40 +30,41 @@ export const data = {
     formation : [
         {
             title : 'My formation',
-            descriptions : [
-                'JavaScript, React, Router, Redux, HTML, CSS, Git, GitHub.',
-                'JavaScript, HTML, CSS, Git, GitHub, Lógica de programación, Desarrollo Personal',
-                'Diplomado en idioma Ingles',
-                'INTRODUCCION AL DESARROLLO WEB 1 y 2'
-            ],
-            years : [
-                '2020 - Actualidad',
-                '04/2022 - 01/2023',
-                '06/2020 - 12/2020',
-                '11/2019'
+            formations : [
+                { 
+                    name: 'Platzi',
+                    description: 'JavaScript, React, Router, Redux, HTML, CSS, Git, GitHub.',
+                    years: '2020 - Actualidad'
+                 },
+                { 
+                    name: 'Alura',
+                    description: 'JavaScript, HTML, CSS, Git, GitHub, Lógica de programación, Desarrollo Personal',
+                    years: '04/2022 - 01/2023'
+                },
+                { 
+                    name: 'Ingles',
+                    description: 'Diplomado en idioma Ingles',
+                    years: '06/2020 - 12/2020'
+                },
+                { 
+                    name: 'Google Activate',
+                    description: 'INTRODUCCION AL DESARROLLO WEB 1 y 2',
+                    years: '11/2019'
+                },
             ]
         }
     ],
     hobbies : [ 
         {
             title : 'Hobbies',
-            subtitles : [
-                'Programar',
-                'Video Juegos',
-                'Estudiar',
-                'Cine',
-                'Oir música',
-                'Viajar',
-                'Hacer deportes'
-            ],
-            url : [
-                '/assets/img/hobbies/479-computer-laptop-notebook-gradient.png',
-                '/assets/img/hobbies/476-controller-pad-game-play-gradient.png',
-                '/assets/img/hobbies/112-book-morph-outline.png',
-                '/assets/img/hobbies/1120-popcorn-gradient.png',
-                '/assets/img/hobbies/43-music-note-outline.png',
-                '/assets/img/hobbies/1008-travel-agency-gradient.png',
-                '/assets/img/hobbies/431-football-soccer-ball-gradient.png'
+            description : [
+                { name: 'Programar', url: '/assets/img/hobbies/479-computer-laptop-notebook-gradient.png' },
+                { name: 'Video Juegos', url: '/assets/img/hobbies/476-controller-pad-game-play-gradient.png' },
+                { name: 'Estudiar', url: '/assets/img/hobbies/112-book-morph-outline.png' },
+                { name: 'Cine', url: '/assets/img/hobbies/1120-popcorn-gradient.png' },
+                { name: 'Oir música', url: '/assets/img/hobbies/43-music-note-outline.png' },
+                { name: 'Viajar', url: '/assets/img/hobbies/1008-travel-agency-gradient.png' },
+                { name: 'Hacer deportes', url: '/assets/img/hobbies/431-football-soccer-ball-gradient.png' }
             ]
         }
     ],
