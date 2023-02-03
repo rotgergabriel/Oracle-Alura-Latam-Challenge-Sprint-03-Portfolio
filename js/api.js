@@ -12,28 +12,18 @@ export const data = {
             description : 'Soy un apasionado por la tecnología en general, y en mi tiempo libre estudio de forma autodidacta programación web Front-End, buscando siempre el crecimiento intelectual y con ello mejores oportunidades laborales.',
         }
     ],
-    skills : [
+    skill : [
         {
             title : 'Skills',
-            subtitles : [
-                'HTML',
-                'CSS',
-                'JavaScript',
-                'React',
-                'Node',
-                'NPM',
-                'Git',
-                'Github'
-            ],
-            url : [
-                '/assets/img/skills/html-5-144.png',
-                '/assets/img/skills/css3-144.png',
-                '/assets/img/skills/javascript-144.png',
-                '/assets/img/skills/react-100.png',
-                '/assets/img/skills/icons8-nodejs-144.png',
-                '/assets/img/skills/ngp-144.png',
-                '/assets/img/skills/git-144.png',
-                '/assets/img/skills/github-192.png'
+            skills : [ 
+                { name: 'HTML', url: '/assets/img/skills/html-5-144.png' },
+                { name: 'CSS', url: '/assets/img/skills/css3-144.png' },
+                { name: 'JavaScript', url: '/assets/img/skills/javascript-144.png' },
+                { name: 'React', url: '/assets/img/skills/react-100.png' },
+                { name: 'Node', url: '/assets/img/skills/icons8-nodejs-144.png' },
+                { name: 'NPM', url: '/assets/img/skills/ngp-144.png' },
+                { name: 'Git', url: '/assets/img/skills/git-144.png' },
+                { name: 'Github', url: '/assets/img/skills/github-192.png' }
             ]
         }
     ],
