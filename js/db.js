@@ -1,8 +1,22 @@
 export const data = {
+    header: [
+        {
+            links : [
+                { name: 'About', href:'#about'},
+                { name: 'My skills', href:'#skills'},
+                { name: 'Hobbies', href:'#hobbies'},
+                { name: 'My formation', href:'#formation'},
+                { name: 'Projects', href:'#works'},
+                { name: 'Contact', href:'#contact'}
+            ]
+        }
+    ],
     profile : [
        { 
             title: 'Hola, soy Gabriel, front-end developer.',
             subtitle: 'Actualmente me encuentro participando en el proyecto Oracle ONE en Alura Latam',
+            github: 'https://github.com/rotgergabriel',
+            linkedin: 'https://www.linkedin.com/in/gabriel-augusto-rotger'
         }
     ],
     about : [
@@ -128,6 +142,14 @@ export const data = {
                     demo: 'https://losabuelos.netlify.app/'
                 },
             ]
+        }
+    ],
+    footer : [
+        {
+            tel: 'Tel: (+39)3290818919',
+            mail: 'E-mail: rotgergabriel@gmail.com',
+            github: 'https://github.com/rotgergabriel',
+            linkedin: 'https://www.linkedin.com/in/gabriel-augusto-rotger'
         }
     ]
 }

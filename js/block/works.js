@@ -3,8 +3,8 @@ import { data } from  '../db.js'
 const title = document.querySelector('[data-works-title]')
 const works = document.querySelector('[data-works]')
 
-title.innerHTML = `<a name="hobbies">${data.project[0].title}</a>`
-console.log(data.project)
+title.innerHTML = `<a name="works">${data.project[0].title}</a>`
+
 works.innerHTML = data.project[0].projects.map(element => 
     `<div class="works__items">
         <img class="work__img" src=${element.img} alt=${element.title}>
@@ -16,4 +16,4 @@ works.innerHTML = data.project[0].projects.map(element =>
             <a class="work--button" target="_blank" href=${element.demo}>Demo</a>
         </div>
     </div>`
-)
+).join('')

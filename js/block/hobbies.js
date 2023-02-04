@@ -10,4 +10,4 @@ hobbies.innerHTML = data.hobbies[0].description.map(element =>
         <h2 class="skill__subtitle">${element.name}</h2>
         <img class="skills__img" src=${element.url} alt= ${element.name}>
     </div>`
-)
+).join('')

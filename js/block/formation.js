@@ -12,4 +12,4 @@ formation.innerHTML = data.formation[0].formations.map(element =>
         <span class="formation--info">${element.description}</span>
         <span class="formation--info years">${element.years}</span>
     </div>`
-)
+).join('')
