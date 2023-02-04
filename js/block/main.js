@@ -1,4 +1,4 @@
-import { data } from "./api.js"
+import { data } from "../db.js"
 
 const title = document.querySelector('[data-main-title]')
 const subtitle = document.querySelector('[data-main-subtitle]')
