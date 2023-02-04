@@ -1,4 +1,3 @@
-   
 const btnMenu = document.querySelector('[data-btnMenu]')
 const btnMenuClose = document.querySelector('[data-btnMenu-close]')
 const headerLinks = document.querySelector('[data-links]')
@@ -8,7 +7,6 @@ btnMenu.addEventListener('click', () => {
     headerLinks.style.display = 'flex'
     btnMenuClose.style.visibility = 'visible'
 })
-
 
 btnMenuClose.addEventListener('click', () => {
     btnMenuClose.style.visibility = 'hidden'

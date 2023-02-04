@@ -22,17 +22,9 @@
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <a name="top"></a>
     <header class="header">
         <div class="header__menu" data-header>
-            <ul class="header__links" data-links>
-                <li><a class="header__link underline" href="#about">About</a></li>
-                <li><a class="header__link underline" href="#skills">My skills</a></li>
-                <li><a class="header__link underline" href="#hobbies">Hobbies</a></li>
-                <li><a class="header__link underline" href="#formation">My formation</a></li>
-                <li><a class="header__link underline" href="#works">Projects</a></li>
-                <li><a class="header__link underline" href="#contact">Contact</a></li>
-            </ul>
+            <ul class="header__links" data-links></li></ul>
             <div class="header__btn-menu" data-btnMenu>
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
@@ -48,198 +40,26 @@
         </div>
     </header>
     <main class="main">
-        <div class="main__container">
-            <img class="main__profile--img" src="/assets/img/profile.jpeg" alt="profile image">
-            <div class="main__container--title">
-                <h1 class="main__title">Hola, soy Gabriel, front-end developer.</h1>
-                <h2 class="main__subtitle">Actualmente me encuentro participando en el proyecto <em>Oracle ONE</em> en <em>Alura Latam</em></h2>
-                <div class="main__links">
-                    <li><a class="main__link underline" href="https://github.com/rotgergabriel" target="_blank">GitHub<span>&#9701</span></a></li>
-                    <li><a class="main__link underline" href="https://www.linkedin.com/in/gabriel-augusto-rotger" target="_blank">Linkedin<span>&#9701</span></a></li>
-                    <li><a class="main__link underline" href="/assets/file/Cv Gabriel - Es.pdf" download="Cv-Rotger">Cv-Download<span>&#9701</span></a></li>
-                </div>
-            </div>
-        </div>
-        <div class="about__container">
-            <h1 class="about__tittle"><a name="about">About</a></h1>
-            <span class="about__description">
-                Soy un apasionado por la tecnología en general, y en mi tiempo libre estudio de forma autodidacta programación web Front-End, buscando siempre el crecimiento intelectual y con ello mejores oportunidades laborales.
-            </span>
+        <div class="main__container" data-main-profile></div>
+        <div class="about__container" data-container>
+            <h1 class="about__tittle" data-about-title></h1>
+            <span class="about__description" data-about-description></span>
         </div>
         <div class="skills__container">
-            <h1 class="skill__title"><a name="skills">Skills</a></h1>
-            <div class="skill__cards">
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">HTML</h2>
-                    <img class="skills__img" src="/assets/img/skills/html-5-144.png" alt="HTML">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">CSS</h2>
-                    <img class="skills__img" src="/assets/img/skills/css3-144.png" alt="CSS">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">JavaScript</h2>
-                    <img class="skills__img" src="/assets/img/skills/javascript-144.png" alt="JavaScript">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">React</h2>
-                    <img class="skills__img" src="/assets/img/skills/react-100.png" alt="React">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Node</h2>
-                    <img class="skills__img" src="/assets/img/skills/icons8-nodejs-144.png" alt="NPM">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">NPM</h2>
-                    <img class="skills__img" src="/assets/img/skills/ngp-144.png" alt="NPM">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Git</h2>
-                    <img class="skills__img" src="/assets/img/skills/git-144.png" alt="Git">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">GitHub</h2>
-                    <img class="skills__img" src="/assets/img/skills/github-192.png" alt="GitHub">
-                </div>
-            </div>
+            <h1 class="skill__title" data-skills-title></h1>
+            <div class="skill__cards" data-skill></div>
         </div>
         <div class="formation__container">
-            <h1 class="formation__title"><a name="formation">My formation</a></h1>
-            <div class="formation__items">
-                <div class="formation__item">
-                    <div class="formation__img platzi">
-                    </div>
-                    <span class="formation--info">JavaScript, React, Router, Redux, HTML, CSS, Git, GitHub.</span>
-                    <span class="formation--info years">2020 - Actualidad</span>
-                </div>
-                <div class="formation__item">
-                    <div class="formation__img alura">
-                    </div>
-                    <span class="formation--info">JavaScript, HTML, CSS, Git, GitHub, Lógica de programación, Desarrollo Personal</span>
-                    <span class="formation--info years">04/2022 - Cursando</span>
-                </div>
-                <div class="formation__item">
-                    <div class="formation__img foundation">
-                    </div>
-                    <span class="formation--info">Diplomado en idioma Ingles</span>
-                    <span class="formation--info years">06/2020 - 12/2020</span>
-                </div>
-                <div class="formation__item">
-                    <div class="formation__img google">
-                    </div>
-                    <span class="formation--info">INTRODUCCION AL DESARROLLO WEB 1 y 2</span>
-                    <span class="formation--info years">11/2019</span>
-                </div>
-            </div>
+            <h1 class="formation__title" data-formation-title></h1>
+            <div class="formation__items" data-formation></div>
         </div>
         <div class="skills__container">
-            <h1 class="skill__title"><a name="hobbies">Hobbies</a></h1>
-            <div class="skill__cards">
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Programar</h2>
-                    <img class="skills__img" src="/assets/img/hobbies/479-computer-laptop-notebook-gradient.png" alt="React">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Video Juegos</h2>
-                    <img class="skills__img" src="/assets/img/hobbies/476-controller-pad-game-play-gradient.png" alt="JavaScript">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Estudiar</h2>
-                    <img class="skills__img" src="/assets/img/hobbies/112-book-morph-outline.png" alt="JavaScript">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Cine</h2>
-                    <img class="skills__img" src="/assets/img/hobbies/1120-popcorn-gradient.png" alt="Git">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Oir música</h2>
-                    <img class="skills__img" src="/assets/img/hobbies/43-music-note-outline.png" alt="GitHub">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Viajar</h2>
-                    <img class="skills__img" src="/assets/img/hobbies/1008-travel-agency-gradient.png" alt="NPM">
-                </div>
-                <div class="skill__item">
-                    <h2 class="skill__subtitle">Hacer deportes</h2>
-                    <img class="skills__img" src="/assets/img/hobbies/431-football-soccer-ball-gradient.png" alt="HTML">
-                </div>
-            </div>
+            <h1 class="skill__title" data-hobbies-title></h1>
+            <div class="skill__cards" data-hobbies></div>
         </div>
         <div class="works__container">
-            <h1 class="works__title"><a name="works">Projects</a></h1>
-            <div class="works__items">
-                <img class="work__img" src="/assets/img/works/aluraGeek.png" alt="Encriptador de texto">
-                <div class="work__info">
-                    <h1 class="work--title">E-Commerce AluraGeek</h1>
-                    <h2 class="work--subtitle">Oracle ONE / Alura Latam</h2>
-                    <span class="work--description">HTML, CSS, JavaScript</span>
-                    <a class="work--button" target="_blank" href="https://github.com/rotgergabriel/Oracle-Alura-Latam-Challenge-Sprint-04-E-Commerce">Repo</a>
-                    <a class="work--button" target="_blank" href="https://alura-ecommerce.netlify.app">Demo</a>
-                </div>
-            </div>
-            <div class="works__items">
-                <img class="work__img" src="/assets/img/works/crud.png" alt="Encriptador de texto">
-                <div class="work__info">
-                    <h1 class="work--title">CRUD JavaScript</h1>
-                    <h2 class="work--subtitle">Oracle ONE / Alura Latam</h2>
-                    <span class="work--description">HTML, CSS, JavaScript</span>
-                    <a class="work--button" target="_blank" href="https://github.com/rotgergabriel/JS-en-la-Web-CRUD-con-JavaScript-Asincrono">Repo</a>
-                    <a class="work--button" target="_blank" href="#">Demo</a>
-                </div>
-            </div>
-            <div class="works__items">
-                <img class="work__img" src="/assets/img/works/TO-DO.png" alt="TO-DO App">
-                <div class="work__info">
-                    <h1 class="work--title">Manipulacion del DOM (TO-DO)</h1>
-                    <h2 class="work--subtitle">Oracle ONE / Alura Latam</h2>
-                    <span class="work--description">HTML, CSS, JavaScript</span>
-                    <a class="work--button" target="_blank" href="https://github.com/rotgergabriel/JS-en-la-Web-Manipulacion-del-DOM-con-JavaScript">Repo</a>
-                    <a class="work--button" target="_blank" href="https://rotgergabriel.github.io/JS-en-la-Web-Manipulacion-del-DOM-con-JavaScript/">Demo</a>
-                </div>
-            </div>
-            <div class="works__items">
-                <img class="work__img" src="/assets/img/works/form-validation.png" alt="Validacion de formularios">
-                <div class="work__info">
-                    <h1 class="work--title">Validacion de formularios</h1>
-                    <h2 class="work--subtitle">Oracle ONE / Alura Latam</h2>
-                    <span class="work--description">HTML, CSS, JavaScript</span>
-                    <a class="work--button" target="_blank" href="https://github.com/rotgergabriel/JS-en-la-Web-Validacion-de-Formularios-y-HTML5">Repo</a>
-                    <a class="work--button" target="_blank" href="https://form-validation-js-oracle-alura.netlify.app">Demo</a>
-                </div>
-            </div>
-            <div class="works__items">
-                <img class="work__img" src="/assets/img/works/handgedMan.png" alt="Encriptador de texto">
-                <div class="work__info">
-                    <h1 class="work--title">Juego del ahorcado</h1>
-                    <h2 class="work--subtitle">Challenge Sprint 02 - Oracle ONE / Alura Latam</h2>
-                    <span class="work--description">HTML, CSS, JavaScript</span>
-                    <a class="work--button" target="_blank"
-                        href="https://github.com/rotgergabriel/Oracle-Alura-Latam-Challenge-Sprint-02">Repo</a>
-                    <a class="work--button" target="_blank"
-                        href="https://oracle-alura-latam-challenge-sprint-2.netlify.app/">Demo</a>
-                </div>
-            </div>
-            <div class="works__items">
-                <img class="work__img" src="/assets/img/works/encrypt.png" alt="Encriptador de texto">
-                <div class="work__info">
-                    <h1 class="work--title">Encriptador de texto</h1>
-                    <h2 class="work--subtitle">Challenge Sprint 01 - Oracle ONE / Alura Latam</h2>
-                    <span class="work--description">HTML, CSS, JavaScript</span>
-                    <a class="work--button" target="_blank"
-                        href="https://github.com/rotgergabriel/Oracle-Alura-Latam-Challenge-Sprint-01">Repo</a>
-                    <a class="work--button" target="_blank" href="https://encrypt-challenge.netlify.app/">Demo</a>
-                </div>
-            </div>
-            <div class="works__items">
-                <img class="work__img" src="/assets/img/works/losAbuelos.png" alt="Encriptador de texto">
-                <div class="work__info">
-                    <h1 class="work--title">Web 'Los Abuelos'</h1>
-                    <h2 class="work--subtitle">Proyecto Personal</h2>
-                    <span class="work--description">HTML, CSS, JavaScript, React</span>
-                    <a class="work--button" target="_blank" href="https://github.com/rotgergabriel/losAbuelosReact">Repo</a>
-                    <a class="work--button" target="_blank" href="https://losabuelos.netlify.app/">Demo</a>
-                </div>
-            </div>
+            <h1 class="works__title" data-works-title></h1>
+            <div data-works></div>
         </div>
         <div class="contact__container">
             <h1 class="works__title"><a name="contact">Contacto</a></h1>
@@ -266,20 +86,19 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="footer__container">
-            <div>
-                <a href="https://github.com/rotgergabriel" target="_blank">GitHub<span>&#9701</span></a>
-                <a href="https://www.linkedin.com/in/gabriel-augusto-rotger" target="_blank">Linkedin<span>&#9701</span></a>
-            </div>
-            <a href="tel:+393290818919">Tel: (+39)3290818919</a>
-            <a href="mailto:rotgergabriel@gmail.com">E-mail: rotgergabriel@gmail.com</a>
-        </div>
-    </footer>
+    <footer data-footer></footer>
     <!--Font awesome-->
     <script src="https://kit.fontawesome.com/a946beb2ac.js" crossorigin="anonymous"></script>
     <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
     <script type="module" defer src="/js/darkMode.js"></script>
-    <script src="/js/btnMenu.js"></script>
+    <script type="module" src="/js/block/header.js"></script>
+    <script type="module" src="/js/block/main.js"></script>
+    <script type="module" src="/js/block/about.js"></script>
+    <script type="module" src="/js/block/skills.js"></script>
+    <script type="module" src="/js/block/formation.js"></script>
+    <script type="module" src="/js/block/hobbies.js"></script>
+    <script type="module" src="/js/block/works.js"></script>
+    <script type="module" src="/js/block/footer.js"></script>
+    <script src="/js/block/btnMenu.js"></script>
 </body>
 </html>
