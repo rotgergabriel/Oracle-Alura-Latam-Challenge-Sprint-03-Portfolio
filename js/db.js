@@ -144,6 +144,16 @@ export const data = {
             ]
         }
     ],
+    contact: [
+        {
+            title: 'Contacto',
+            form: [
+                {
+                    //Form content
+                }
+            ]
+        },
+    ],
     footer : [
         {
             tel: 'Tel: (+39)3290818919',
