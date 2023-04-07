@@ -14,3 +14,11 @@ links.forEach(link => {
         })
     })
 })
+
+//ScrollReveal framework function
+ScrollReveal().reveal('.about__container', {delay: 500});
+ScrollReveal().reveal('.skills', {delay: 500});
+ScrollReveal().reveal('.formation__container', {delay: 500});
+ScrollReveal().reveal('.works__container', {delay: 500});
+ScrollReveal().reveal('.hobbies', {delay: 500});
+ScrollReveal().reveal('.contact__container', {delay: 500});

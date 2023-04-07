@@ -4,8 +4,8 @@ export const data = {
             links : [
                 { name: 'About', href:'#about'},
                 { name: 'My skills', href:'#skills'},
-                { name: 'Hobbies', href:'#hobbies'},
                 { name: 'My formation', href:'#formation'},
+                { name: 'Hobbies', href:'#hobbies'},
                 { name: 'Projects', href:'#works'},
                 { name: 'Contact', href:'#contact'}
             ]
