@@ -13,8 +13,8 @@ export const data = {
     ],
     profile : [
        { 
-            title: 'Hola, soy Gabriel, front-end developer.',
-            subtitle: '|Html| - |Css| - |JavaScript| - |React.js|',
+            title: 'Hola, soy Gabriel Rotger.',
+            subtitle: 'Front-end software engineer',
             github: 'https://github.com/rotgergabriel',
             linkedin: 'https://www.linkedin.com/in/gabriel-augusto-rotger'
         }
