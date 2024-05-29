@@ -85,6 +85,14 @@ export const data = {
             title : 'Projects',
             projects : [
                 {
+                    title: 'Birthday invitation card',
+                    subtitle: 'Personal Project',
+                    description: 'HTML, CSS, JavaScript, Materialize.css, Node.js, NPM',
+                    img: '/assets/img/works/evangelina.png',
+                    github: 'https://github.com/rotgergabriel/tarjetaCumple',
+                    demo: 'https://evangelina.netlify.app/index.html'
+                }, 
+                {
                     title: 'E-Commerce AluraGeek',
                     subtitle: 'Oracle ONE / Alura Latam',
                     description: 'HTML, CSS, JavaScript',
