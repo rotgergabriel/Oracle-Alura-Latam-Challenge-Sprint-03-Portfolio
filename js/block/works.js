@@ -3,7 +3,7 @@ import { data } from  '../db.js'
 const title = document.querySelector('[data-works-title]')
 const works = document.querySelector('[data-works]')
 
-title.innerHTML = `<a name="works">${data.project[0].title}</a>`
+title.innerHTML = `<a id="works">${data.project[0].title}</a>`
 
 works.innerHTML = data.project[0].projects.map(element => 
     `<div class="works__items">

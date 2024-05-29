@@ -4,8 +4,8 @@ export const data = {
             links : [
                 { name: 'About', href:'#about'},
                 { name: 'My skills', href:'#skills'},
-                { name: 'Hobbies', href:'#hobbies'},
                 { name: 'My formation', href:'#formation'},
+                { name: 'Hobbies', href:'#hobbies'},
                 { name: 'Projects', href:'#works'},
                 { name: 'Contact', href:'#contact'}
             ]
@@ -13,8 +13,8 @@ export const data = {
     ],
     profile : [
        { 
-            title: 'Hola, soy Gabriel, front-end developer.',
-            subtitle: 'Actualmente me encuentro participando en el proyecto Oracle ONE en Alura Latam',
+            title: 'Hola, soy Gabriel Rotger.',
+            subtitle: 'Front-end software engineer',
             github: 'https://github.com/rotgergabriel',
             linkedin: 'https://www.linkedin.com/in/gabriel-augusto-rotger'
         }
@@ -22,8 +22,7 @@ export const data = {
     about : [
        { 
             title : 'About',
-            description : 'Soy un apasionado por la tecnología en general, y en mi tiempo libre estudio de forma autodidacta programación web Front-End, buscando siempre el crecimiento intelectual y con ello mejores oportunidades laborales.',
-        }
+            description: `Soy un desarrollador web con habilidades en tecnologías modernas como HTML, CSS y Javascript, y experiencia en herramientas esenciales como VSCode, Git, GitHub y NPM. Mi enfoque en el desarrollo de aplicaciones web abarca desde la planificación y el diseño hasta la implementación y el mantenimiento, y he trabajado con varios frameworks, como React.js, Materialize.css y Bootstrap. Soy apasionado por encontrar soluciones óptimas y eficientes, y siempre busco mejorar mis habilidades y conocimientos. Estoy seguro de que mis habilidades, motivación y compromiso pueden ser de gran valor para su equipo. ¡Gracias por su consideración!`}
     ],
     skill : [
         {
@@ -143,6 +142,16 @@ export const data = {
                 },
             ]
         }
+    ],
+    contact: [
+        {
+            title: 'Contacto',
+            form: [
+                {
+                    //Form content
+                }
+            ]
+        },
     ],
     footer : [
         {

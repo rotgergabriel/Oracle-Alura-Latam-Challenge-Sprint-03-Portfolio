@@ -16,15 +16,15 @@
     <link rel="stylesheet" href="/styles/block/works.css">
     <link rel="stylesheet" href="/styles/block/contact.css">
     <link rel="stylesheet" href="/styles/block/footer.css">
-    <link rel="stylesheet" href="/styles/block/arrows.css">
+    <!-- <link rel="stylesheet" href="/styles/block/arrows.css"> -->
     <title>Portfolio</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
 </head>
-<body>
+<body class="dark-mode">
     <header class="header">
         <div class="header__menu" data-header>
-            <ul class="header__links" data-links></li></ul>
+            <ul class="header__links" data-links></ul>
             <div class="header__btn-menu" data-btnMenu>
                 <i class="fa fa-bars" aria-hidden="true"></i>
             </div>
@@ -33,6 +33,7 @@
             </div>
         </div>
         <div class="header__btn">
+
             <button class="btn-switch" data-switch>
                 <span><i class="fas fa-sun"></i></span>
                 <span><i class="fas fa-moon"></i></span>
@@ -45,7 +46,7 @@
             <h1 class="about__tittle" data-about-title></h1>
             <span class="about__description" data-about-description></span>
         </div>
-        <div class="skills__container">
+        <div class="skills__container skills">
             <h1 class="skill__title" data-skills-title></h1>
             <div class="skill__cards" data-skill></div>
         </div>
@@ -53,7 +54,7 @@
             <h1 class="formation__title" data-formation-title></h1>
             <div class="formation__items" data-formation></div>
         </div>
-        <div class="skills__container">
+        <div class="skills__container hobbies">
             <h1 class="skill__title" data-hobbies-title></h1>
             <div class="skill__cards" data-hobbies></div>
         </div>
@@ -62,7 +63,7 @@
             <div data-works></div>
         </div>
         <div class="contact__container">
-            <h1 class="works__title"><a name="contact">Contacto</a></h1>
+            <h1 class="works__title" data-contact-title></h1>
             <div class="form__container">
                 <form autocomplete="off" class="form__contact" method="post" netlify>
                     <input class="form--input" type="text" id="name" placeholder="Nombre" maxlength="30" required>
@@ -81,15 +82,21 @@
             </div>
         </div>
         <div>
-            <div class="arrow__down">
+            <!-- <div class="arrow__down">
                 &#8595;
-            </div>
+            </div> -->
         </div>
     </main>
     <footer data-footer></footer>
     <!--Font awesome-->
     <script src="https://kit.fontawesome.com/a946beb2ac.js" crossorigin="anonymous"></script>
+    <!-- Lord icon -->
     <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+    <!-- ScrollReveal framework -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Rellax.min.js -->
+    <script src="/js/rellax.min.js"></script>
+    <!-- JS Modules -->
     <script type="module" defer src="/js/darkMode.js"></script>
     <script type="module" src="/js/block/header.js"></script>
     <script type="module" src="/js/block/main.js"></script>
@@ -98,7 +105,9 @@
     <script type="module" src="/js/block/formation.js"></script>
     <script type="module" src="/js/block/hobbies.js"></script>
     <script type="module" src="/js/block/works.js"></script>
+    <script type="module" src="/js/block/contact.js"></script>
     <script type="module" src="/js/block/footer.js"></script>
     <script src="/js/block/btnMenu.js"></script>
+    <script type="module" src="/js/scroll-behavior-controller.js"></script>
 </body>
 </html>
