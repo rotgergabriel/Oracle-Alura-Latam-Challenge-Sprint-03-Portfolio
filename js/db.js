@@ -12,30 +12,49 @@ export const data = {
         }
     ],
     profile : [
-       { 
-            title: 'Hola, soy Gabriel, front-end developer.',
-            subtitle: '|Html| - |Css| - |JavaScript| - |React.js|',
+        { 
+            title: 'Junior front-end developer.',
+            fullName: 'Rotger Gabriel',
+            subtitle: '| HTML | CSS | JavaScript | React.js | PHP | MySQL | WordPress | Figma |',
             github: 'https://github.com/rotgergabriel',
             linkedin: 'https://www.linkedin.com/in/gabriel-augusto-rotger'
         }
     ],
     about : [
-       { 
+        { 
             title : 'About',
-            description: `Soy un desarrollador web con habilidades en tecnologías modernas como HTML, CSS y Javascript, y experiencia en herramientas esenciales como VSCode, Git, GitHub y NPM. Mi enfoque en el desarrollo de aplicaciones web abarca desde la planificación y el diseño hasta la implementación y el mantenimiento, y he trabajado con varios frameworks, como React.js, Materialize.css y Bootstrap. Soy apasionado por encontrar soluciones óptimas y eficientes, y siempre busco mejorar mis habilidades y conocimientos. Estoy seguro de que mis habilidades, motivación y compromiso pueden ser de gran valor para su equipo. ¡Gracias por su consideración!`}
+            description: `Soy un desarrollador web en formación, con base sólida en HTML, CSS y JavaScript, y conocimientos de PHP, MySQL y WordPress (CMS).
+
+Trabajo con herramientas y flujos profesionales como Git, GitHub, VSCode, NPM y Figma, y utilizo metodologías de desarrollo estructuradas para gestionar mis proyectos personales.
+
+Actualmente curso una formación profesional de 600 horas con 250 horas de prácticas en Forte Chance Piemonte (Italia), orientada al desarrollo Full Stack y al diseño UI/UX.
+
+Mi objetivo es crecer como Junior Frontend Developer, contribuyendo en entornos colaborativos y mejorando continuamente mis habilidades técnicas y creativas.`}
     ],
     skill : [
         {
             title : 'Skills',
-            skills : [ 
+            skills: [
+                // --- Frontend ---
                 { name: 'HTML', url: '/assets/img/skills/html-5-144.png' },
                 { name: 'CSS', url: '/assets/img/skills/css3-144.png' },
                 { name: 'JavaScript', url: '/assets/img/skills/javascript-144.png' },
-                { name: 'React', url: '/assets/img/skills/react-100.png' },
-                { name: 'Node', url: '/assets/img/skills/icons8-nodejs-144.png' },
-                { name: 'NPM', url: '/assets/img/skills/ngp-144.png' },
+                { name: 'React.js', url: '/assets/img/skills/react-100.png' },
+
+                // --- Backend / Database ---
+                { name: 'PHP', url: '/assets/img/skills/PHP-logo.png' },
+                { name: 'MySQL', url: '/assets/img/skills/MySQL-Logo.png' },
+                { name: 'WordPress', url: '/assets/img/skills/wordpress.png' },
+
+                // --- Tools & Workflow ---
                 { name: 'Git', url: '/assets/img/skills/git-144.png' },
-                { name: 'Github', url: '/assets/img/skills/github-192.png' }
+                { name: 'GitHub', url: '/assets/img/skills/github-192.png' },
+                { name: 'NPM', url: '/assets/img/skills/npm.png' },
+                { name: 'VSCode', url: '/assets/img/skills/vscode.png' },
+
+                // --- Design & Productivity ---
+                { name: 'Figma', url: '/assets/img/skills/figma.png' },
+                { name: 'Notion', url: '/assets/img/skills/notion.png' }
             ]
         }
     ],
@@ -43,26 +62,26 @@ export const data = {
         {
             title : 'My formation',
             formations : [
-                { 
-                    name: 'platzi',
-                    description: 'JavaScript, React, Router, Redux, HTML, CSS, Git, GitHub.',
-                    years: '2020 - Actualidad'
-                 },
+                {
+                    name: 'forte--chance',
+                    description: "Técnico de desarrollo y gestión de sitios web (Full Stack Developer). Módulos principales: HTML, CSS, JavaScript, PHP, MySQL, Diseño UI/UX con Figma y Gestión de bases de datos. Incluye 240 horas de pasantía (stage).",
+                    years: "2025 - 03/2026 (Estimado)"
+                },
                 { 
                     name: 'alura',
                     description: 'JavaScript, HTML, CSS, Git, GitHub, Lógica de programación, Desarrollo Personal',
                     years: '04/2022 - 01/2023'
                 },
                 { 
+                    name: 'platzi',
+                    description: 'JavaScript, React, Router, Redux, HTML, CSS, Git, GitHub.',
+                    years: '2020 - Actualidad'
+                },
+                { 
                     name: 'foundation',
                     description: 'Diplomado en idioma Ingles',
                     years: '06/2020 - 12/2020'
-                },
-                { 
-                    name: 'google',
-                    description: 'INTRODUCCION AL DESARROLLO WEB 1 y 2',
-                    years: '11/2019'
-                },
+                }
             ]
         }
     ],
@@ -155,8 +174,8 @@ export const data = {
     ],
     footer : [
         {
-            tel: 'Tel: (+39)3290818919',
-            mail: 'E-mail: rotgergabriel@gmail.com',
+            tel: '(+39)3290818919',
+            mail: 'rotgergabriel@gmail.com',
             github: 'https://github.com/rotgergabriel',
             linkedin: 'https://www.linkedin.com/in/gabriel-augusto-rotger'
         }

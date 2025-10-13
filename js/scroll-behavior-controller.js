@@ -18,13 +18,36 @@ links.forEach(link => {
     })
 })
 
-//ScrollReveal framework function
-ScrollReveal().reveal('.about__container', {delay: 500});
-ScrollReveal().reveal('.skills', {delay: 500});
-ScrollReveal().reveal('.formation__container', {delay: 500});
-ScrollReveal().reveal('.works__container', {delay: 500});
-ScrollReveal().reveal('.hobbies', {delay: 500});
-ScrollReveal().reveal('.contact__container', {delay: 500});
+const arrow = document.querySelector('.arrow__down');
+const footer = document.querySelector('footer');
 
-//Simple parallax framework function
-new simpleParallax(images, { scale: 5 })
+const observer = new IntersectionObserver(
+    (entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Cuando el footer entra en pantalla, ocultamos la flecha
+                arrow.classList.add('hidden');
+            } else {
+                // Cuando el footer no está visible, la mostramos
+                arrow.classList.remove('hidden');
+            }
+        });
+    },
+    {
+        root: null,          // viewport
+        threshold: 0.1       // se activa cuando al menos 10% del footer está visible
+    }
+);
+
+observer.observe(footer);
+
+// //ScrollReveal framework function
+// ScrollReveal().reveal('.about__container', {delay: 500});
+// ScrollReveal().reveal('.skills', {delay: 500});
+// ScrollReveal().reveal('.formation__container', {delay: 500});
+// ScrollReveal().reveal('.works__container', {delay: 500});
+// ScrollReveal().reveal('.hobbies', {delay: 500});
+// ScrollReveal().reveal('.contact__container', {delay: 500});
+
+// //Simple parallax framework function
+// new simpleParallax(images, { scale: 5 })
