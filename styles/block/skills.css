@@ -1,20 +1,20 @@
 .skills__container {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin: 50px 0;
-    padding: 25px 20%;
+    padding: 50px 50px;
+    min-height: 100vh;
+    background-color: var(--dark-slate);
+    color: var(--white);
 }
 
 .skill__title {
     font-size: 25px;
-    font-family: monospace;
-    color: var(--dark-blue);
 }
 
 .skill__subtitle {
     font-size: 15px;
-    font-family: monospace;
     font-style: italic;
     color: var(--dark-blue);
 }
@@ -25,7 +25,7 @@
     text-align: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 0 50px;
+    padding: 0 40px;
     justify-content: center;
 }
 
@@ -55,7 +55,7 @@
 
 @media(min-width:320px) and (max-width:769px) {
     .skills__container {
-        padding: 25px 0px;
+        /* padding: 25px 0px; */
     }
     .skill__item {
         width: 75px;

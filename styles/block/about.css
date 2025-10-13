@@ -1,31 +1,34 @@
 .about__container {
-    padding: 25px 0;
+    display: flex; /* Activamos Flexbox */
+    flex-direction: column; /* Para que los elementos se apilen verticalmente */
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    min-height: 100vh; /* Ocupa toda la altura de la ventana */
+    padding: 50px 50px; /* Ajusta padding horizontal si quieres */
+    background-color: var(--grey);
     text-align: center;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
-.about__tittle {
+.about__title {
     font-size: 25px;
-    font-family: monospace;
-    color: var(--dark-blue);
+    color: var(--white);
+    margin-bottom: 10px;
 }
 
 .about__description {
-    text-align: justify;
-    margin-top: 15px;
-    color: var(--dark-blue);
+    text-align: left;
+    margin: 15px 10%;
     display: inline-block;
     font-size: 15px;
-    margin: 0 25%;
-    font-family: monospace;
     font-style: italic;
+    color: var(--white);
 }
 
 @media(min-width:425px) and (max-width:767px) {
     .about__description {
         font-size: 12px;
         margin: 0 15%;
-        padding: 0 0;
     }
 }
 
@@ -33,6 +36,5 @@
     .about__description {
         font-size: 10px;
         margin: 0 10%;
-        padding: 0 0;
     }
 }

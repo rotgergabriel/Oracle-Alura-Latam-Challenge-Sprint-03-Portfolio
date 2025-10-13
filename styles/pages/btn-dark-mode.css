@@ -4,6 +4,13 @@
     --grey: rgb(52, 61, 91);
     --light-grey: rgba(0, 0, 0, .2);
     --blue: #0976b5;
+    --yellow: #fde001;
+
+    --blue-tech: #00b4d8; /* azul cian digital */
+    --purple-tech: #7b2cbf; /* morado moderno y elegante */
+    --accent: #00f5d4; /* verde aqua para detalles interactivos */
+
+    --dark-slate: #1b263b; /* gris azulado oscuro */
 }
 
 body {
@@ -16,16 +23,17 @@ body {
 .dark-mode {
     background-color: var(--black);
 }
-
 .dark-mode .header {
-    background: var(--light-grey);
-    border-bottom: 1px dashed var(--white);
+    background: var(--black);
 }
 .dark-mode .header__link {
     color: var(--white);
 }
 .dark-mode .main__title {
     color: var(--white);
+}
+.dark-mode .main__author {
+    color: var(--blue-tech);
 }
 .dark-mode .main__subtitle {
     color: var(--white);
@@ -49,7 +57,7 @@ body {
     color: var(--white);
 }
 .dark-mode .years{
-    color: var(--blue);
+    color: var(--blue-tech);
 }
 .dark-mode .works__title {
     color: var(--white);
@@ -60,13 +68,14 @@ body {
 .dark-mode .contact__title{
     color: var(--white);
 }
-.dark-mode .arrow__down{
-    color: var(--white);
-}
-.dark-mode .header__btn-menu{
+
+.dark-mode .header__btn-menu {
     color: var(--white);
 }
 
+.dark-mode .footer__container a {
+    color: var(--accent);
+}
 /* button styles */
 .btn-switch {
     background: var(--black);
