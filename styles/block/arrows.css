@@ -1,9 +1,9 @@
-/* .arrow__down {
+.arrow__down {
     position: fixed;
     top: 40vh;
-    left: 20px;
+    left: 15px;
     transform: rotate(90deg);
-    color: var(--grey)
+    color: var(--accent);
 }
 
 @keyframes moviendrew {
@@ -21,11 +21,10 @@
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
-    font-size: 80px;
+    font-size: 40px;
 }
 
-@media(min-width:769px) {
-    .arrow__down {
-        left: 75px;
-    }
-} */
+.arrow__down.hidden {
+    opacity: 0;
+    pointer-events: none;
+}

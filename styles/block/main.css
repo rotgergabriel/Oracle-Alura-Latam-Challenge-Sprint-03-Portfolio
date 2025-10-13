@@ -1,5 +1,43 @@
-.main {
-    margin-top: 50px;
+/* root */
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: y mandatory;
+    -webkit-scroll-snap-type: y mandatory;
+    margin: 0;
+}
+
+body {
+    font-family: monospace;
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+}
+
+body>.main__container,
+body>.about__container,
+body>.skills__container,
+body>.formation__container,
+body>.contact__container,
+body>footer {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    -webkit-scroll-snap-align: start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.works__container {
+    min-height: auto;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
+
+main>div {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    min-height: 100vh;
 }
 
 .main__container {
@@ -8,6 +46,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: calc(100vh - 80px);
 }
 
 .main__profile--img {
@@ -26,29 +65,31 @@
 }
 
 .main__title {
-    display: block;
-    font-size: 25px;
-    font-family: monospace;
+    font-size: 50px;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 25ch;
-    animation: typing 2s steps(25),
-        blink .5s infinite step-end alternate;
-    overflow: hidden;
     color: var(--dark-blue);
+    margin-bottom: 25px;
+}
+
+.main__author {
+    display: flex;
+    font-size: 35px;
+    color: var(--dark-blue);
+    margin-bottom: 25px;
 }
 
 .main__subtitle {
     color: var(--dark-blue);
-    font-family: monospace;
-    font-size: 15px;
-    margin-top: 25px;
+    font-size: 1rem;
+    margin-bottom: 25px;
     font-style: italic;
+    letter-spacing: 1px;
 }
 
 .main__links {
     display: flex;
-    margin-top: 25px;
+    margin-bottom: 25px;
     list-style: none;
 }
 
