@@ -33,7 +33,7 @@
     display: flex;
     flex-direction: column;
     line-height: 30px;
-    color: var(--dark-blue);
+    color: var(--white);
     align-self: center;
     width: 19rem;
     text-align: center;

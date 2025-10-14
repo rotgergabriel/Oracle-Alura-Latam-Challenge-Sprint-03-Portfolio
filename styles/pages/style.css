@@ -8,3 +8,47 @@
     --white: rgb(242, 242, 242);
     --grey: rgb(52, 61, 91);
 }
+
+/* root */
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: y mandatory;
+    -webkit-scroll-snap-type: y mandatory;
+    margin: 0;
+}
+
+body {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 500;
+    font-style: normal;
+    height: 100%;
+    margin: 0;
+    overflow-y: auto;
+}
+
+h1,
+footer {
+    font-weight: 700;
+    font-style: italic;
+}
+
+body>.main__container,
+body>.about__container,
+body>.skills__container,
+body>.formation__container,
+body>.contact__container,
+body>footer {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    -webkit-scroll-snap-align: start;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.works__container {
+    min-height: auto;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+}
