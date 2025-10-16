@@ -1,12 +1,15 @@
 :root {
-    --black: #140f07;
+    --black: #0e0b09;
     --light-black: #140f07f3;
     --dark-blue: #103051;
     --blue: #0976b5;
     --light-blue: #08c3ff;
+    --blue-tech: #0a5fa7;
     --aqua: #0ffff8;
-    --white: rgb(242, 242, 242);
-    --grey: rgb(52, 61, 91);
+    --white: #f2f2f2;
+    --grey: #2a3140;
+    --dark-slate: #1b1f29;
+    --purple-tech: #6c3db8;
 }
 
 /* root */
@@ -38,7 +41,6 @@ body>.main__container,
 body>.about__container,
 body>.skills__container,
 body>.formation__container,
-body>.contact__container,
 body>footer {
     scroll-snap-align: start;
     scroll-snap-stop: always;

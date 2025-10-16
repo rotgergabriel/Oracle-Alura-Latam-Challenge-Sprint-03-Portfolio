@@ -2,7 +2,7 @@ import { data } from "../db.js"
 
 const footer = document.querySelector('[data-footer]')
 
-footer.innerHTML = data.footer.map(element => 
+footer.innerHTML = data.footer.map(element =>
     `<div class="footer__container">
             <div>
                 <a href=${element.github} target="_blank">GitHub<span>&#9701</span></a>

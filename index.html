@@ -38,14 +38,13 @@
             </div>
         </div>
         <div class="header__btn">
-
             <button class="btn-switch" data-switch>
                 <span><i class="fas fa-sun"></i></span>
                 <span><i class="fas fa-moon"></i></span>
             </button>
         </div>
     </header>
-        <div class="main__container" data-main-profile></div>
+        <div id="hero" class="main__container" data-main-profile></div>
         <div class="about__container" data-container>
             <h1 class="about__title" data-about-title></h1>
             <span class="about__description" data-about-description></span>
@@ -58,25 +57,9 @@
             <h1 class="formation__title" data-formation-title></h1>
             <div class="formation__items" data-formation></div>
         </div>
-        <div class="skills__container hobbies">
-            <h1 class="skill__title" data-hobbies-title></h1>
-            <div class="skill__cards" data-hobbies></div>
-        </div>
         <div class="works__container">
             <h1 class="works__title" data-works-title></h1>
             <div data-works></div>
-        </div>
-        <div class="contact__container">
-            <h1 class="works__title" data-contact-title></h1>
-            <div class="form__container">
-                <form autocomplete="off" class="form__contact" method="post" netlify>
-                    <input class="form--input" type="text" id="name" placeholder="Nombre" maxlength="30" required>
-                    <input class="form--input" type="email" id="mail" placeholder="E-mail" required>
-                    <input class="form--input" type="text" id="asunto" placeholder="Asunto" maxlength="30" required>
-                    <textarea class="form--input" name="" id="textArea" cols="30" rows="10" placeholder="Mensaje" required></textarea>
-                    <input class="work--button" type="submit" value="Enviar">
-                </form>
-            </div>
         </div>
         <div>
             <div class="arrow__down">
@@ -84,7 +67,7 @@
             </div>
         </div>
         
-    <footer class="footer__container" data-footer></footer>
+    <footer id="footer" class="footer__container" data-footer></footer>
     <!--Font awesome-->
     <script src="https://kit.fontawesome.com/a946beb2ac.js" crossorigin="anonymous"></script>
     <!-- Lord icon -->
@@ -100,7 +83,6 @@
     <script type="module" src="/js/block/about.js"></script>
     <script type="module" src="/js/block/skills.js"></script>
     <script type="module" src="/js/block/formation.js"></script>
-    <script type="module" src="/js/block/hobbies.js"></script>
     <script type="module" src="/js/block/works.js"></script>
     <script type="module" src="/js/block/contact.js"></script>
     <script type="module" src="/js/block/footer.js"></script>

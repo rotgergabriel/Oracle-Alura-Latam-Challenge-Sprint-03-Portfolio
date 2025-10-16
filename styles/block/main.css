@@ -39,7 +39,7 @@ main>div {
 .main__author {
     display: flex;
     font-size: 35px;
-    color: var(--dark-blue);
+    color: var(--blue-tech);
     margin-bottom: 25px;
 }
 

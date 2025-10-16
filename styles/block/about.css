@@ -5,7 +5,7 @@
     align-items: center; /* Centrado horizontal */
     min-height: 100vh; /* Ocupa toda la altura de la ventana */
     padding: 50px 50px; /* Ajusta padding horizontal si quieres */
-    background-color: var(--grey);
+    background-color: var(--dark-slate);
     text-align: center;
     line-height: 1.5em;
 }

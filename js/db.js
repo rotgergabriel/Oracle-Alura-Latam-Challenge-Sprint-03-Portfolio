@@ -2,12 +2,12 @@ export const data = {
     header: [
         {
             links : [
-                { name: 'About', href:'#about'},
-                { name: 'My skills', href:'#skills'},
-                { name: 'My formation', href:'#formation'},
-                { name: 'Hobbies', href:'#hobbies'},
+                { name: 'Start', href:'#hero'},
+                { name: 'Who I Am', href:'#about'},
+                { name: 'Tech Stack', href:'#skills'},
+                { name: 'Professional Training', href:'#formation'},
                 { name: 'Projects', href:'#works'},
-                { name: 'Contact', href:'#contact'}
+                { name: "Let's Connect", href:'#footer'}
             ]
         }
     ],
@@ -21,19 +21,17 @@ export const data = {
         }
     ],
     about : [
-        { 
-            title : 'About',
-            description: `Soy un desarrollador web en formación, con base sólida en HTML, CSS y JavaScript, y conocimientos de PHP, MySQL y WordPress (CMS).
+        {
+            title: 'Who I Am',
+            description: `Soy un desarrollador web en formación con base sólida en HTML, CSS y JavaScript, y conocimientos en PHP, MySQL y WordPress. Trabajo con herramientas profesionales como Git, GitHub, VSCode, NPM y Figma, aplicando metodologías estructuradas en mis proyectos personales.
 
-Trabajo con herramientas y flujos profesionales como Git, GitHub, VSCode, NPM y Figma, y utilizo metodologías de desarrollo estructuradas para gestionar mis proyectos personales.
+Actualmente curso una formación profesional en Forte Chance Piemonte (Italia) orientada al desarrollo Full Stack y diseño UI/UX.
 
-Actualmente curso una formación profesional de 600 horas con 250 horas de prácticas en Forte Chance Piemonte (Italia), orientada al desarrollo Full Stack y al diseño UI/UX.
-
-Mi objetivo es crecer como Junior Frontend Developer, contribuyendo en entornos colaborativos y mejorando continuamente mis habilidades técnicas y creativas.`}
+Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colaborativos y mejorando continuamente mis habilidades técnicas y creativas.`}
     ],
     skill : [
         {
-            title : 'Skills',
+            title: 'Tech Stack',
             skills: [
                 // --- Frontend ---
                 { name: 'HTML', url: '/assets/img/skills/html-5-144.png' },
@@ -60,7 +58,7 @@ Mi objetivo es crecer como Junior Frontend Developer, contribuyendo en entornos 
     ],
     formation : [
         {
-            title : 'My formation',
+            title: 'Professional Training',
             formations : [
                 {
                     name: 'forte--chance',
@@ -82,20 +80,6 @@ Mi objetivo es crecer como Junior Frontend Developer, contribuyendo en entornos 
                     description: 'Diplomado en idioma Ingles',
                     years: '06/2020 - 12/2020'
                 }
-            ]
-        }
-    ],
-    hobbies : [ 
-        {
-            title : 'Hobbies',
-            description : [
-                { name: 'Programar', url: '/assets/img/hobbies/479-computer-laptop-notebook-gradient.png' },
-                { name: 'Video Juegos', url: '/assets/img/hobbies/476-controller-pad-game-play-gradient.png' },
-                { name: 'Estudiar', url: '/assets/img/hobbies/112-book-morph-outline.png' },
-                { name: 'Cine', url: '/assets/img/hobbies/1120-popcorn-gradient.png' },
-                { name: 'Oir música', url: '/assets/img/hobbies/43-music-note-outline.png' },
-                { name: 'Viajar', url: '/assets/img/hobbies/1008-travel-agency-gradient.png' },
-                { name: 'Hacer deportes', url: '/assets/img/hobbies/431-football-soccer-ball-gradient.png' }
             ]
         }
     ],
@@ -169,16 +153,6 @@ Mi objetivo es crecer como Junior Frontend Developer, contribuyendo en entornos 
                 },
             ]
         }
-    ],
-    contact: [
-        {
-            title: 'Contacto',
-            form: [
-                {
-                    //Form content
-                }
-            ]
-        },
     ],
     footer : [
         {
