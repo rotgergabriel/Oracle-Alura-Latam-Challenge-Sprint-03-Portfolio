@@ -29,9 +29,9 @@ main>div {
 }
 
 .main__title {
-    font-size: 50px;
+    font-size: 40px;
     white-space: nowrap;
-    border-right: 4px solid;
+    border-right: 5px solid;
     color: var(--dark-blue);
     margin-bottom: 25px;
 }
@@ -84,6 +84,10 @@ main>div {
 @media(min-width:425px) and (max-width:767px) {
 
     .main__title {
+        font-size: 20px;
+    }
+
+    .main__author {
         font-size: 15px;
     }
 
@@ -111,7 +115,11 @@ main>div {
     }
 
     .main__title {
-        font-size: 12px;
+        font-size: 15px;
+    }
+
+    .main__author {
+        font-size: 15px;
     }
 
     .main__subtitle {
@@ -121,6 +129,6 @@ main>div {
     .main__links li {
         padding: 0px 0px;
         margin: 5px;
-        font-size: 12px;
+        font-size: 10px;
     }
 }

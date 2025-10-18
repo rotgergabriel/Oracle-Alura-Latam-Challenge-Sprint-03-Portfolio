@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 50px 50px;
+    padding: 50px 0;
     min-height: 100vh;
     background-color: var(--grey);
     color: var(--white);
@@ -25,7 +25,7 @@
     text-align: center;
     flex-wrap: wrap;
     margin-top: 20px;
-    padding: 0 40px;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -42,6 +42,7 @@
     height: 100px;
     cursor: pointer;
     box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
+    transition: transform 0.3s ease-in-out;
 }
 
 .skill__item:hover {
@@ -54,9 +55,6 @@
 }
 
 @media(min-width:320px) and (max-width:769px) {
-    .skills__container {
-        /* padding: 25px 0px; */
-    }
     .skill__item {
         width: 75px;
         height: 75px;

@@ -3,10 +3,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px 50px;
+    padding: 50px;
     background-color: var(--grey);
     min-height: 100vh;
     color: var(--white);
+    gap: 30px;
 }
 
 .works__title {
@@ -14,29 +15,47 @@
     color: var(--white);
 }
 
-.works__items {
+.works__section {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.works__items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 300px;
+    max-width: 400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px -1px rgba(116, 116, 116, 0.666);
+    transition: transform 0.3s ease-in-out;
+    gap: 10px;
+}
+
+.works__items:hover{
+    transform: scale(1.05);
+    transition: ease .5s;
 }
 
 .work__img {
     max-width: 400px;
-    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
-    margin: 0 25px;
     border-radius: 10px;
 }
 
 .work__info {
     display: flex;
     flex-direction: column;
-    line-height: 30px;
-    color: var(--white);
-    align-self: center;
-    width: 19rem;
+    justify-content: space-between;
+    flex-grow: 1;
     text-align: center;
+    width: 100%;
+    gap: 10px;
 }
 
 .work--title {
@@ -44,11 +63,11 @@
 }
 
 .work--subtitle {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .work--description {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .work--button {
@@ -56,37 +75,96 @@
     cursor: pointer;
     color: var(--white);
     text-align: center;
-    margin: 10px 25px;
-    padding: 5px;
-    border: none;
+    padding: 15px;
+    border: 1px solid var(--dark-blue);
     border-radius: 5px;
     box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
-    background: linear-gradient(to right, var(--dark-blue), var(--blue));
 }
 
-@media(min-width:425px) and (max-width:768px) {
-    .work__img {
-        margin: 5px 0;
-        width: 350px;
-    }
-    .work--title {
-        font-size: 15px;
-    }
-
-    .work--subtitle {
-        font-size: 10px;
-    }
+.plans {
+    background: var(--blue);
 }
 
-@media(min-width:320px) and (max-width:424px) {
+.ghost {
+    background: var(--white);
+    color: var(--grey);
+}
+
+/* ======================= */
+/* 📱 MOBILE PEQUEÑO 320–425 */
+/* ======================= */
+@media (min-width: 320px) and (max-width: 425px) {
+    .works__container {
+        padding: 20px;
+    }
+
     .work__img {
-        margin: 5px 0;
         width: 250px;
     }
+
+    .work--title {
+        font-size: 12px;
+    }
+
+    .work--subtitle {
+        font-size: 9px;
+    }
+
+    .work--description {
+        font-size: 8px;
+    }
+
+    .work--button {
+        padding: 10px;
+    }
+}
+
+/* ======================= */
+/* 📲 TABLET / MOBILE GRANDE 426–768 */
+/* ======================= */
+@media (min-width: 426px) and (max-width: 768px) {
+    .works__container {
+        padding: 30px;
+    }
+
+    .work__img {
+        width: 250px;
+    }
+
     .work--title {
         font-size: 15px;
     }
+
     .work--subtitle {
+        font-size: 12px;
+    }
+
+    .work--description {
         font-size: 10px;
+    }
+}
+
+/* ======================= */
+/* 💻 DESKTOP MEDIO 769–1024 */
+/* ======================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .works__container {
+        padding: 40px;
+    }
+
+    .work__img {
+        width: 350px;
+    }
+
+    .work--title {
+        font-size: 18px;
+    }
+
+    .work--subtitle {
+        font-size: 14px;
+    }
+
+    .work--description {
+        font-size: 11px;
     }
 }

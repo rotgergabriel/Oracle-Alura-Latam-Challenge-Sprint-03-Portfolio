@@ -1,5 +1,5 @@
-const btnMenu = document.querySelector('[data-btnMenu]')
-const btnMenuClose = document.querySelector('[data-btnMenu-close]')
+const btnMenu = document.querySelector('[data-btn-menu]')
+const btnMenuClose = document.querySelector('[data-btn-menu-close]')
 const headerLinks = document.querySelector('[data-links]')
 
 btnMenu.addEventListener('click', () => {

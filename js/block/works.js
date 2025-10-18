@@ -12,8 +12,8 @@ works.innerHTML = data.project[0].projects.map(element =>
             <h1 class="work--title">${element.title}</h1>
             <h2 class="work--subtitle">${element.subtitle}</h2>
             <span class="work--description">${element.description}</span>
-            <a class="work--button" target="_blank" href=${element.github}>Repo</a>
-            <a class="work--button" target="_blank" href=${element.demo}>Demo</a>
+            <a class="work--button plans" target="_blank" href=${element.demo}>Ver Proyecto</a>
+            <a class="work--button ghost" target="_blank" href=${element.github}>GitHub</a>
         </div>
     </div>`
 ).join('')

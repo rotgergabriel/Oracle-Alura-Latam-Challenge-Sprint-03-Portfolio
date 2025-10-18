@@ -4,7 +4,7 @@
     justify-content: center; /* Centrado vertical */
     align-items: center; /* Centrado horizontal */
     min-height: 100vh; /* Ocupa toda la altura de la ventana */
-    padding: 50px 50px; /* Ajusta padding horizontal si quieres */
+    padding: 50px 0; /* Ajusta padding horizontal si quieres */
     background-color: var(--dark-slate);
     text-align: center;
     line-height: 1.5em;
@@ -27,7 +27,7 @@
 
 @media(min-width:425px) and (max-width:767px) {
     .about__description {
-        font-size: 12px;
+        font-size: 15px;
         margin: 0 15%;
     }
 }
