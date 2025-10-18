@@ -18,7 +18,8 @@
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
-    margin-top: 10px;
+    padding: 25px 5%;
+    gap: 10px;
 }
 
 .formation__item {
@@ -27,6 +28,10 @@
     flex-direction: column;
     align-items: center;
     margin: 0 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px -1px rgba(116, 116, 116, 0.666);
+    gap: 10px;
+    text-align: center;
 }
 
 .formation__img {
@@ -87,5 +92,5 @@
     justify-content: flex-end;
     font-size: 10px;
     /* color: var(--blue); */
-    margin-top: 5px;
+    margin: 10px 0;
 }

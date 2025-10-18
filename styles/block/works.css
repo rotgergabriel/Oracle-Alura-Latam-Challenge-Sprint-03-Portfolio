@@ -40,7 +40,6 @@
 
 .works__items:hover{
     transform: scale(1.05);
-    transition: ease .5s;
 }
 
 .work__img {

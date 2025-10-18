@@ -58,7 +58,7 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
     ],
     formation : [
         {
-            title: 'Professional Training',
+            title: 'Training',
             formations : [
                 {
                     name: 'forte--chance',

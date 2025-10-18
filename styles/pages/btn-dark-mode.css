@@ -1,18 +1,3 @@
-:root {
-    --black: rgb(16, 16, 16);
-    --white: rgb(242, 242, 242);
-    --grey: rgb(52, 61, 91);
-    --light-grey: rgba(0, 0, 0, .2);
-    --blue: #0976b5;
-    --yellow: #fde001;
-
-    --blue-tech: #00b4d8; /* azul cian digital */
-    --purple-tech: #7b2cbf; /* morado moderno y elegante */
-    --accent: #00f5d4; /* verde aqua para detalles interactivos */
-
-    --dark-slate: #1b263b; /* gris azulado oscuro */
-}
-
 body {
     background-color: var(--white);
     transition: .5s ease all;
