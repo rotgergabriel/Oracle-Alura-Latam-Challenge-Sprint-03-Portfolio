@@ -73,7 +73,7 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
                 { 
                     name: 'platzi',
                     description: 'JavaScript, React, Router, Redux, HTML, CSS, Git, GitHub.',
-                    years: '2020 - Actualidad'
+                    years: '2019 - 2021'
                 },
                 { 
                     name: 'foundation',

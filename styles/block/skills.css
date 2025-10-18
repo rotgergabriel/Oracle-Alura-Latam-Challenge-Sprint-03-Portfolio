@@ -39,7 +39,7 @@
     width: 150px;
     height: 100px;
     cursor: pointer;
-    box-shadow: 5px 5px 10px -1px rgba(116, 116, 116, 0.666);
+    box-shadow: 5px 5px 10px -1px rgba(35, 35, 35, 0.666);
     transition: transform 0.3s ease-in-out;
 }
 

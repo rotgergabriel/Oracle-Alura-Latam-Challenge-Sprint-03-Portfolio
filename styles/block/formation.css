@@ -19,78 +19,106 @@
     justify-content: center;
     flex-direction: row;
     padding: 25px 5%;
-    gap: 10px;
+    gap: 20px;
 }
 
+/* 🎓 Tarjeta individual */
 .formation__item {
     display: flex;
-    width: 230px;
     flex-direction: column;
     align-items: center;
-    margin: 0 0;
+    justify-content: space-between;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px -1px rgba(116, 116, 116, 0.666);
-    gap: 10px;
+    box-shadow: 5px 5px 10px -1px rgba(35, 35, 35, 0.666);
     text-align: center;
+    padding: 15px;
+    gap: 10px;
+    width: 100%;
+    max-width: 400px;
+    min-height: 400px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+}
+
+.formation__item:hover {
+    transform: scale(1.05);
 }
 
 .formation__img {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
+    flex-shrink: 0;
     border-radius: 10px;
     width: 12.5rem;
     height: 12.5rem;
     cursor: pointer;
     box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .platzi {
-    background-color: var(--white);
-    background: url(/assets/img/formation/platzi.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/assets/img/formation/platzi.jpg);
 }
 
 .alura {
-    background-color: var(--white);
-    background: url(/assets/img/formation/alura.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/assets/img/formation/alura.jpg);
 }
 
 .forte--chance {
-    background-color: var(--white);
-    background: url(/assets/img/formation/forte_chance.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/assets/img/formation/forte_chance.png);
 }
 
 .foundation {
-    background-color: var(--white);
-    background: url(/assets/img/formation/fundacion.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(/assets/img/formation/fundacion.jpg);
 }
 
+/* Texts */
 .formation--info {
-    display: flex;
-    justify-content: center;
     font-size: 15px;
     font-style: italic;
-    /* color: var(--dark-blue); */
+    color: var(--white);
 }
 
 .years {
-    display: flex;
-    justify-content: flex-end;
     font-size: 10px;
-    /* color: var(--blue); */
-    margin: 10px 0;
+    opacity: 0.8;
+}
+
+/* MOBILE (320–767px) */
+@media (max-width: 767px) {
+    .formation__items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formation__item {
+        max-width: 250px;
+        min-height: 350px;
+    }
+
+    .formation__img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .formation--info {
+        font-size: 13px;
+    }
+
+    .years {
+        font-size: 9px;
+    }
+}
+
+/* DESKTOP (768px) */
+@media (min-width: 768px) {
+    .formation__items {
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .formation__item {
+        flex: 1 1 calc(50% - 40px);
+        max-width: 350px;
+    }
 }

@@ -42,7 +42,7 @@ body {
     color: var(--white);
 }
 .dark-mode .years{
-    color: var(--blue-tech);
+    color: var(--white);
 }
 .dark-mode .work__info{
     color: var(--white);
@@ -52,6 +52,10 @@ body {
 }
 .dark-mode .footer__container a {
     color: var(--accent);
+}
+.dark-mode .arrow__down {
+    color: var(--white);
+    font-weight: 200;
 }
 /* button styles */
 .btn-switch {

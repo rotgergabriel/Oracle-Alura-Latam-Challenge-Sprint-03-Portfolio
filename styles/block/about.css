@@ -1,10 +1,10 @@
 .about__container {
-    display: flex; /* Activamos Flexbox */
-    flex-direction: column; /* Para que los elementos se apilen verticalmente */
-    justify-content: center; /* Centrado vertical */
-    align-items: center; /* Centrado horizontal */
-    min-height: 100vh; /* Ocupa toda la altura de la ventana */
-    padding: 50px 0; /* Ajusta padding horizontal si quieres */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px 0;
     background-color: var(--dark-slate);
     text-align: center;
     line-height: 1.5em;

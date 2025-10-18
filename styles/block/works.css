@@ -33,7 +33,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     padding: 15px;
-    box-shadow: 5px 5px 10px -1px rgba(116, 116, 116, 0.666);
+    box-shadow: 5px 5px 10px -1px rgba(35, 35, 35, 0.666);
     transition: transform 0.3s ease-in-out;
     gap: 10px;
 }
@@ -45,6 +45,7 @@
 .work__img {
     max-width: 400px;
     border-radius: 10px;
+    box-shadow: 5px 5px 10px -1px rgba(0, 0, 0, 0.60);
 }
 
 .work__info {
@@ -89,10 +90,8 @@
     color: var(--grey);
 }
 
-/* ======================= */
-/* 📱 MOBILE PEQUEÑO 320–425 */
-/* ======================= */
-@media (min-width: 320px) and (max-width: 425px) {
+/* MOBILE 320–424 */
+@media (min-width: 320px) and (max-width: 424px) {
     .works__container {
         padding: 20px;
     }
@@ -118,10 +117,9 @@
     }
 }
 
-/* ======================= */
-/* 📲 TABLET / MOBILE GRANDE 426–768 */
-/* ======================= */
-@media (min-width: 426px) and (max-width: 768px) {
+
+ /* TABLET / MOBILE 426–768  */
+@media (min-width: 425px) and (max-width: 768px) {
     .works__container {
         padding: 30px;
     }
@@ -197,20 +195,15 @@
         font-size: 12px;
     }
 
-    /* 🔧 Ajuste para los botones */
     .work--button {
         align-self: flex-start;
         width: 180px;
-        /* 🔹 Tamaño uniforme */
         text-align: center;
         padding: 12px 0;
         min-height: 45px;
-        /* 🔹 Asegura que no se encojan */
         display: inline-flex;
-        /* 🔹 Para centrar el texto verticalmente */
         justify-content: center;
         align-items: center;
         white-space: nowrap;
-        /* 🔹 Evita que el texto se corte */
     }
 }

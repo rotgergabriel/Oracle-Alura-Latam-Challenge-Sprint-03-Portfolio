@@ -52,10 +52,7 @@ footer {
     min-height: 100vh;
 }
 
-/* ============================== */
-/* TITULOS PRINCIPALES CON '/' */
-/* ============================== */
-
+/* Titulos principales con '/' y '.' */
 .formation__title::before,
 .about__title::before,
 .skill__title::before,
@@ -63,12 +60,10 @@ footer {
 .contact__title::before {
     content: '/';
     color: var(--purple-tech);
-    /* Usa tu color de acento */
-    margin-right: 6px;
+    margin-right: 5px;
     font-weight: 700;
     display: inline-block;
     transform: translateY(-1px);
-    /* leve ajuste vertical */
 }
 
 .formation__title::after,
@@ -78,10 +73,8 @@ footer {
 .contact__title::after {
     content: '.';
     color: var(--purple-tech);
-    /* mismo color que la barra */
-    margin-left: 4px;
+    margin-left: 5px;
     font-weight: 700;
     display: inline-block;
     transform: translateY(-1px);
-    /* alineación vertical */
 }

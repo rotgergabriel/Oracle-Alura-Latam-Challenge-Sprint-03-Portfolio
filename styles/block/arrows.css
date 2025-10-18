@@ -1,9 +1,27 @@
 .arrow__down {
     position: fixed;
-    top: 40vh;
-    left: 15px;
-    transform: rotate(90deg);
-    color: var(--accent);
+    top: calc(40vh);
+    left: 30px;
+    color: var(--blue);
+    font-size: 15px;
+    writing-mode: vertical-rl;
+    letter-spacing: 5px;
+    text-orientation: mixed;
+    animation-name: moviendrew;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-weight: 600;
+}
+
+.arrow-text {
+    display: inline-block;
+    transform: rotate(180deg);
+}
+
+.arrow__down.hidden {
+    opacity: 0;
+    pointer-events: none;
 }
 
 @keyframes moviendrew {
@@ -16,15 +34,9 @@
     }
 }
 
-.arrow__down {
-    animation-name: moviendrew;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    font-size: 40px;
-}
-
-.arrow__down.hidden {
-    opacity: 0;
-    pointer-events: none;
+/* Mobiles y tablets */
+@media (max-width: 768px) {
+    .arrow__down {
+        left: 10px;
+    }
 }
