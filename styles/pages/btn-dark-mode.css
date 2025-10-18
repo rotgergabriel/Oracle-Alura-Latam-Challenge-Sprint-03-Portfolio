@@ -88,8 +88,8 @@ body {
 }
 
 .active {
-    background-color: var(--blue);
-    color: var(--black);
+    background-color: var(--purple-tech);
+    color: var(--light-black);
 }
 
 .active::after {

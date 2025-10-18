@@ -5,7 +5,7 @@
     align-items: center;
     min-height: 100vh;
     gap: 40px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .footer__container a {
@@ -21,7 +21,6 @@
     .footer__container {
         line-height: 40px;
         gap:20px;
-        font-size: 1rem;
     }
 
     .footer__container a {

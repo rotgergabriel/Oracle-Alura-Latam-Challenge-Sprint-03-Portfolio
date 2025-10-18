@@ -81,7 +81,7 @@
 }
 
 .plans {
-    background: var(--blue);
+    background: var(--purple-tech);
 }
 
 .ghost {
@@ -143,27 +143,74 @@
     }
 }
 
-/* ======================= */
-/* 💻 DESKTOP MEDIO 769–1024 */
-/* ======================= */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) {
     .works__container {
         padding: 40px;
     }
 
+    .works__section {
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .works__items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1100px;
+        width: 100%;
+        gap: 30px;
+        padding: 25px;
+    }
+
+    .works__items:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
     .work__img {
-        width: 350px;
+        width: 45%;
+        max-width: 450px;
+        border-radius: 10px;
+    }
+
+    .work__info {
+        width: 50%;
+        text-align: left;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
     }
 
     .work--title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .work--subtitle {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .work--description {
-        font-size: 11px;
+        font-size: 12px;
+    }
+
+    /* 🔧 Ajuste para los botones */
+    .work--button {
+        align-self: flex-start;
+        width: 180px;
+        /* 🔹 Tamaño uniforme */
+        text-align: center;
+        padding: 12px 0;
+        min-height: 45px;
+        /* 🔹 Asegura que no se encojan */
+        display: inline-flex;
+        /* 🔹 Para centrar el texto verticalmente */
+        justify-content: center;
+        align-items: center;
+        white-space: nowrap;
+        /* 🔹 Evita que el texto se corte */
     }
 }
