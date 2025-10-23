@@ -26,6 +26,7 @@ body {
 .dark-mode .main__link{
     color: var(--white);
 }
+
 .dark-mode .about__tittle{
     color: var(--white);
 }
