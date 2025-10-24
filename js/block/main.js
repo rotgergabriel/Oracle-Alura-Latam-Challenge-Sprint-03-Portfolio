@@ -13,7 +13,7 @@ profile.innerHTML = data.profile.map(element =>
     </ul>
     <ul>
         <li class="main__link-select-container">
-            <label for="cv-language-select" class="main__link-select-label" hidden>
+            <label for="cv-language-select" class="main__link-select-label">
                 Select language for CV download
             </label>
             <select class="main__link-select-items" id="cv-language-select" onchange="handleCVDownload(this)">
