@@ -13,6 +13,9 @@ profile.innerHTML = data.profile.map(element =>
     </ul>
     <ul>
         <li class="main__link-select-container">
+            <label for="cv-language-select" class="main__link-select-label" hidden>
+                Select language for CV download
+            </label>
             <select class="main__link-select-items" id="cv-language-select" onchange="handleCVDownload(this)">
                 <option value="" disabled selected hidden>CV Download</option>
                 <option value="/assets/file/CV_Rotger_Gabriel_Junior_Fronted_Developer_English.pdf">English</option>
