@@ -27,7 +27,7 @@ body {
     color: var(--white);
 }
 
-.dark-mode .about__tittle{
+.dark-mode .about__title{
     color: var(--white);
 }
 .dark-mode .about__description{
@@ -43,6 +43,9 @@ body {
     color: var(--white);
 }
 .dark-mode .years{
+    color: var(--white);
+}
+.dark-mode .works__title {
     color: var(--white);
 }
 .dark-mode .work__info{

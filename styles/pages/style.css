@@ -306,14 +306,13 @@ footer {
     align-items: center;
     min-height: 100vh;
     padding: 50px 0;
-    background-color: var(--dark-slate);
     text-align: center;
     line-height: 1.5em;
 }
 
 .about__title {
     font-size: 25px;
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 10px;
 }
 
@@ -323,7 +322,7 @@ footer {
     display: inline-block;
     font-size: 15px;
     font-style: italic;
-    color: var(--white);
+    color: var(--black);
 }
 
 @media(min-width:425px) and (max-width:767px) {
@@ -348,8 +347,7 @@ footer {
     flex-direction: column;
     padding: 50px 0;
     min-height: 100vh;
-    background-color: var(--grey);
-    color: var(--white);
+    color: var(--black);
 }
 
 .skill__title {
@@ -359,19 +357,18 @@ footer {
 .skill__subtitle {
     font-size: 15px;
     font-style: italic;
-    color: var(--dark-blue);
+    color: var(--white);
 }
 
 .skill__cards {
     display: flex;
     flex-wrap: wrap;
     padding: 15px 5%;
-    gap: 5px;
+    gap: 20px;
     justify-content: center;
 }
 
 .skill__item {
-    background-color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -379,11 +376,14 @@ footer {
     margin: 5px;
     padding: 5px;
     border-radius: 10px;
+    background: #1a1919;
+    box-shadow: 5px 5px 0px #101010,
+    -5px -5px 0px #242323;
     width: 150px;
     height: 100px;
     cursor: pointer;
-    box-shadow: 5px 5px 10px -1px rgba(35, 35, 35, 0.666);
     transition: transform 0.3s ease-in-out;
+    
 }
 
 .skill__item:hover {
@@ -413,8 +413,7 @@ footer {
     justify-content: center;
     min-height: 100vh;
     padding: 50px 0;
-    background: linear-gradient(135deg, var(--dark-slate) 50%, var(--purple-tech) 100%);
-    color: var(--white);
+    color: var(--black);
 }
 
 .formation__title {
@@ -437,7 +436,9 @@ footer {
     align-items: center;
     justify-content: space-between;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px -1px rgba(35, 35, 35, 0.666);
+    background: #1a1919;
+    box-shadow: 5px 5px 0px #101010,
+    -5px -5px 0px #242323;
     text-align: center;
     padding: 15px;
     gap: 10px;
@@ -538,7 +539,6 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 50px;
-    background-color: var(--grey);
     min-height: 100vh;
     color: var(--white);
     gap: 30px;
@@ -546,7 +546,7 @@ footer {
 
 .works__title {
     font-size: 25px;
-    color: var(--white);
+    color: var(--black);
 }
 
 .works__section {
@@ -565,9 +565,12 @@ footer {
     flex: 1 1 300px;
     max-width: 400px;
     box-sizing: border-box;
-    border-radius: 10px;
+    
     padding: 15px;
-    box-shadow: 5px 5px 10px -1px rgba(35, 35, 35, 0.666);
+    border-radius: 10px;
+    background: #1a1919;
+    box-shadow: 5px 5px 0px #101010,
+    -5px -5px 0px #242323;
     transition: transform 0.3s ease-in-out;
     gap: 10px;
 }
@@ -747,7 +750,7 @@ footer {
     position: fixed;
     top: calc(40vh);
     left: 30px;
-    color: var(--blue);
+    color: var(--black);
     font-size: 15px;
     writing-mode: vertical-rl;
     letter-spacing: 5px;
