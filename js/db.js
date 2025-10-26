@@ -88,6 +88,22 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
             title : 'Projects',
             projects : [
                 {
+                    title: 'Portfolio Web',
+                    subtitle: 'Personal Project',
+                    description: 'HTML, CSS, JavaScript, Git, Git Flow, JSON, Responsive Design, Dark Mode, GitHub Pages',
+                    img: '/assets/img/works/portfolio.png',
+                    github: 'https://github.com/rotgergabriel/Oracle-Alura-Latam-Challenge-Sprint-03-Portfolio',
+                    demo: 'https://rotgergabriel.netlify.app/'
+                },
+                {
+                    title: 'Devscraft',
+                    subtitle: 'Proyecto Personal',
+                    description: 'Sitio web creado como proyecto personal con el objetivo de ofrecer tarjetas de cumpleaños digitales personalizadas. Basado en una plantilla, fue adaptado y rediseñado con HTML, CSS y JavaScript, modificando estilos, contenido y estructura para ajustarse al propósito comercial.',
+                    img: '/assets/img/works/devscraft.png',
+                    github: 'https://github.com/rotgergabriel/Devs-Craft', // si lo tienes publicado
+                    demo: 'https://devscraft.netlify.app/'
+                },
+                {
                     title: 'Birthday invitation card',
                     subtitle: 'Personal Project',
                     description: 'HTML, CSS, JavaScript, Materialize.css, Node.js, NPM',
@@ -145,12 +161,12 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
                 },
                 {
                     title: 'Los Abuelos',
-                    subtitle: 'Proyecto Personal',
-                    description: 'HTML, CSS, JavaScript, React',
+                    subtitle: 'Proyecto de Aprendizaje',
+                    description: 'Mi primer proyecto utilizando React con componentes funcionales. Proyecto básico diseñado para aprender los fundamentos de React y la estructura de componentes, representando mis primeros pasos en frameworks modernos y sirviendo como base para proyectos posteriores más complejos.',
                     img: '/assets/img/works/losAbuelos.png',
                     github: 'https://github.com/rotgergabriel/losAbuelosReact',
                     demo: 'https://losabuelos.netlify.app/'
-                },
+                }
             ]
         }
     ],
