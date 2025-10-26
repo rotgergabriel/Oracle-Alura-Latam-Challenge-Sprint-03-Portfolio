@@ -90,7 +90,7 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
                 {
                     title: 'Portfolio Web',
                     subtitle: 'Personal Project',
-                    description: 'HTML, CSS, JavaScript, Git, Git Flow, JSON, Responsive Design, Dark Mode, GitHub Pages',
+                    description: 'HTML, CSS, JavaScript, Git, Git Flow, JSON, Responsive Design, Dark Mode',
                     img: '/assets/img/works/portfolio.png',
                     github: 'https://github.com/rotgergabriel/Oracle-Alura-Latam-Challenge-Sprint-03-Portfolio',
                     demo: 'https://rotgergabriel.netlify.app/'
