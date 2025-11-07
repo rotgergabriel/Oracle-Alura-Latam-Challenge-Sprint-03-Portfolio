@@ -17,7 +17,6 @@
 }
 
 html {
-    scroll-padding-top: 90px;
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
@@ -145,6 +144,11 @@ footer {
 }
 
 @media (min-width: 1024px) {
+
+    html {
+        scroll-padding-top: 90px;
+    }
+
     .nav-desktop {
         display: flex;
         align-items: center;
