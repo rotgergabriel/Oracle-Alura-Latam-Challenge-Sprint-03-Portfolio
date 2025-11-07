@@ -63,22 +63,26 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
                 {
                     name: 'forte--chance',
                     description: "Técnico de desarrollo y gestión de sitios web (Full Stack Developer). Módulos principales: HTML, CSS, JavaScript, PHP, MySQL, Diseño UI/UX con Figma y Gestión de bases de datos. Incluye 240 horas de pasantía (stage).",
-                    years: "2025 - 03/2026 (Estimado)"
+                    years: "09/2025 - 03/2026 (Estimado)",
+                    link: "https://fortechance.it/gol/"
                 },
                 { 
                     name: 'alura',
                     description: 'JavaScript, HTML, CSS, Git, GitHub, Lógica de programación, Desarrollo Personal',
-                    years: '04/2022 - 01/2023'
+                    years: '04/2022 - 01/2023',
+                    link: "https://www.aluracursos.com/"
                 },
                 { 
                     name: 'platzi',
                     description: 'JavaScript, React, Router, Redux, HTML, CSS, Git, GitHub.',
-                    years: '2019 - 2021'
+                    years: '2019 - 2021',
+                    link: "https://platzi.com/"
                 },
                 { 
                     name: 'foundation',
                     description: 'Diplomado en idioma Ingles',
-                    years: '06/2020 - 12/2020'
+                    years: '06/2020 - 12/2020',
+                    link: "https://www.facebook.com/fundacionamerica/?locale=es_LA"
                 }
             ]
         }
