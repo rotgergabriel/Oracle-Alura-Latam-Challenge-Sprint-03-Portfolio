@@ -13,9 +13,9 @@ export const data = {
     ],
     profile : [
         { 
-            title: 'Junior front-end developer.',
+            title: 'Full Stack Developer',
             fullName: 'Rotger Gabriel',
-            subtitle: '| HTML | CSS | JavaScript | React.js | PHP | MySQL | WordPress | Figma |',
+            subtitle: '| PHP | MySQL | JavaScript | React.js | HTML | CSS | WordPress | Figma |',
             github: 'https://github.com/rotgergabriel',
             linkedin: 'https://www.linkedin.com/in/gabriel-augusto-rotger'
         }
