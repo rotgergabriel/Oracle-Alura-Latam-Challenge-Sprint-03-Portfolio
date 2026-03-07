@@ -92,6 +92,22 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
             title : 'Projects',
             projects : [
                 {
+                    title: 'CPUE.it - Iglesia Cristiana',
+                    subtitle: 'Full-Stack Web Application (MVC)',
+                    description: 'PHP (MVC), MySQL, JavaScript (ES6+), Bootstrap 5, Clean URLs (.htaccess), Git Flow, Responsive Design',
+                    img: '/assets/img/works/cpue.png',
+                    github: 'https://github.com/rotgergabriel/cpue-website',
+                    demo: 'https://cpue.it/'
+                },
+                {
+                    title: 'Ristorante Pizzeria - Tradizione',
+                    subtitle: 'Full-Stack Web Application (MVC)',
+                    description: 'PHP (MVC), MySQL, JavaScript (ES6+), Bootstrap 5, UI/UX Design (Figma), Clean URLs (.htaccess), Git Flow, Responsive Design',
+                    img: '/assets/img/works/pizzeria-tradizione.png',
+                    github: 'https://github.com/rotgergabriel/ristorante-tradizione',
+                    demo: ''
+                },
+                {
                     title: 'Portfolio Web',
                     subtitle: 'Personal Project',
                     description: 'HTML, CSS, JavaScript, Git, Git Flow, JSON, Responsive Design, Dark Mode',
