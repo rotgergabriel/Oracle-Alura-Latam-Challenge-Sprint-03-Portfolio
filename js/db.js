@@ -105,7 +105,7 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
                     description: 'PHP (MVC), MySQL, JavaScript (ES6+), Bootstrap 5, UI/UX Design (Figma), Clean URLs (.htaccess), Git Flow, Responsive Design',
                     img: '/assets/img/works/pizzeria-tradizione.png',
                     github: 'https://github.com/rotgergabriel/ristorante-tradizione',
-                    demo: ''
+                    demo: 'https://abjuratory-sutton-unprevailing.ngrok-free.dev/ristorante-tradizione/'
                 },
                 {
                     title: 'Portfolio Web',
