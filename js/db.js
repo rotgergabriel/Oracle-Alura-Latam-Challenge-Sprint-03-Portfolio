@@ -97,7 +97,7 @@ Mi objetivo es crecer como Junior Frontend Developer, aportando en equipos colab
                     description: 'PHP (MVC), MySQL, JavaScript (ES6+), Bootstrap 5, Clean URLs (.htaccess), Git Flow, Responsive Design',
                     img: '/assets/img/works/cpue.png',
                     github: 'https://github.com/rotgergabriel/cpue-website',
-                    demo: 'https://cpue.it/'
+                    demo: 'https://abjuratory-sutton-unprevailing.ngrok-free.dev/cpue-website/'
                 },
                 {
                     title: 'Ristorante Pizzeria - Tradizione',
